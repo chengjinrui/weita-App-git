@@ -79,8 +79,9 @@ header p:nth-child(2){
 	margin-left: 0.173611rem;
 }
 .brief p{
+	width: 80%;
+	margin-left: .13rem;
 	font-size: 0.347222rem;
-	height: 0.555556rem;
 	line-height: 0.555556rem;
 	color: #666666;
 	letter-spacing: 0.034722rem;

@@ -6,6 +6,7 @@ angular.module('myApp')
             response.data.data.forEach(function (item) {
                 if (item.activeId == $stateParams.activeId) {
                     $scope.currentActivity = item;
+                    console.log(item);
                 }
             })
         }, function (response) {

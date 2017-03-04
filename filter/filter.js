@@ -34,6 +34,7 @@ angular.module('myApp')
 
     .filter('textWrapFilter', [ function () {
         return function (str) {
+            console.log(str.split('<br />'));
             return str.split('<br />')
         }
     }])
