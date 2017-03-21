@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>味他</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/angular.min.js" charset="utf-8"></script>
+    <script src="./lib/angular-ui-router.js" charset="utf-8"></script>
+</head>
+<body>
+
+    <div class="ui-view"></div>
+
+    <div class="footer">
+        <section>
+            <a ui-sref="home">主页</a>
+        </section>
+        <section>
+            <a ui-sref="information">消息</a>
+        </section>
+        <section>
+            <a ui-sref="news">动态</a>
+        </section>
+        <section>
+            <a ui-sref="activity">活动</a>
+        </section>
+        <section>
+            <a ui-sref="mine">个人</a>
+        </section>
+    </div>
+
+    <!-- 路由引入 -->
+    <script src="./routes/routes.js" charset="utf-8"></script>
+    <!-- 服务引入  我暂时还没写 要写的话就在路由引入之后 控制器引入之前写 -->
+
+
+    <!-- 这里引入了各个控制器的js -->
+    <script src="./controller/home.js" charset="utf-8"></script>
+    <script src="./controller/information.js" charset="utf-8"></script>
+    <script src="./controller/news.js" charset="utf-8"></script>
+    <script src="./controller/activity.js" charset="utf-8"></script>
+    <script src="./controller/mine.js" charset="utf-8"></script>
+</body>
+
+</html>
