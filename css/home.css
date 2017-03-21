@@ -1,3 +1,107 @@
-h1{
-    color: red;
+header {
+    width: 100%;
+    height: 1.49rem;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+}
+header a img{
+    width: .64rem;
+    height: .61rem;
+    margin-left: .48rem;
+}
+header input {
+    display: inline-block;
+    width: 5rem;
+    height: .77rem;
+    border-radius: 25px;
+    background: #fff url('../images/home/02.png') no-repeat .2rem center;
+    background-size: .55rem .57rem;
+    text-indent: .87rem;
+    margin-left: 15%;
+    border: 1px solid #fff;
+    outline: none;
+}
+/*placeholder 改变样式  适应浏览器*/
+input::-webkit-input-placeholder {
+    color: #e7e7e7;
+}
+
+input:-moz-placeholder {
+    color: #e7e7e7;
+}
+
+input::-moz-placeholder {
+    color: #e7e7e7;
+}
+
+input:-ms-input-placeholder {
+    color: #e7e7e7;
+}
+
+.topNav{
+    width: 100%;
+    height: 2.35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topNav ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topNav ul li{
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.topNav ul li img{
+    width: 1.01rem;
+    height: 1.15rem;
+    margin: 0 auto;
+}
+.topNav ul li a{
+    color: #787878;
+}
+.topNav ul li a:nth-of-type(2){
+    margin-top: .2rem;
+}
+
+
+.hotMenu .right, .hotMenu .left {
+    width: 40%;
+    height: 1.13rem;
+    line-height: 1.13rem;
+}
+
+.hotMenu .left {
+    float: left;
+}
+
+.hotMenu .left .userIcon img {
+    width: .67rem;
+    height: .67rem;
+    vertical-align: middle;
+    border-radius: 100%;
+    margin: 0 .17rem .13rem .27rem;
+}
+
+.hotMenu .left.menuTitle {
+    color: #666666;
+    font-size: .37rem;
+}
+
+.hotMenu .right {
+    float: right;
+    text-align: right;
+    padding-right: .33rem;
+    font-size: .27rem;
+    color: #9c9c9c;
+}
+
+.hotMenu .imgMain {
+    width: 100%;
 }

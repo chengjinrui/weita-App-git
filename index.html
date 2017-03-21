@@ -7,27 +7,33 @@
     <title>味他</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./lib/flexible.js" charset="utf-8"></script>
     <script src="./lib/angular.min.js" charset="utf-8"></script>
     <script src="./lib/angular-ui-router.js" charset="utf-8"></script>
 </head>
-<body>
+<body ng-controller="MainCtrl as ctrl">
 
     <div class="ui-view"></div>
 
-    <div class="footer">
-        <section>
+    <div class="footer" ng-click="changeIconBg();">
+        <section >
+            <a ui-sref="home"><img src="./images/footer/home03.png"></a>
             <a ui-sref="home">主页</a>
         </section>
-        <section>
+        <section >
+            <a ui-sref="information"><img src="./images/footer/information01.png"></a>
             <a ui-sref="information">消息</a>
         </section>
-        <section>
+        <section >
+            <a ui-sref="news"><img src="./images/footer/news01.png"></a>
             <a ui-sref="news">动态</a>
         </section>
-        <section>
+        <section >
+            <a ui-sref="activity"><img src="./images/footer/activity01.png"></a>
             <a ui-sref="activity">活动</a>
         </section>
-        <section>
+        <section >
+            <a ui-sref="mine"><img src="./images/footer/mine01.png"></a>
             <a ui-sref="mine">个人</a>
         </section>
     </div>
@@ -35,9 +41,10 @@
     <!-- 路由引入 -->
     <script src="./routes/routes.js" charset="utf-8"></script>
     <!-- 服务引入  我暂时还没写 要写的话就在路由引入之后 控制器引入之前 -->
-
+    <script src="./service/service.js" charset="utf-8"></script>
 
     <!-- 这里引入了各个控制器的js -->
+    <script src="./controller/mainCtrl.js" charset="utf-8"></script>
     <script src="./controller/home.js" charset="utf-8"></script>
     <script src="./controller/information.js" charset="utf-8"></script>
     <script src="./controller/news.js" charset="utf-8"></script>

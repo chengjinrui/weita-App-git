@@ -1,0 +1,893 @@
+{
+    "result": "succ",
+    "data": [{
+            "menuName": "蒜苔炒腊肉",
+            "menuPic": "http://www.chufang001.com/userimg/157573/cp/1489032095cp.jpg",
+            "menuAuthorName": "流水叮叮的夏天",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/157573/head.jpg?update=1489638022",
+            "menuAuthorId": "ec2ecfc30218eb895670f6e16e29c664",
+            "menuDate": 1489032096,
+            "menuState": "蒜苔又叫蒜毫、青蒜，是大蒜幼苗发育到一定时期的青苗，是一种具有很好保健功能蔬菜，我很喜欢它带点甜又有点脆口的口感，今天就教大家做这道超级下饭的蒜苔炒腊肉，超级简单，只需要两种调料即可搞定，赶紧围观吧！",
+            "menuPeopleNum": "2",
+            "menuTips": "腊肉如果太硬，可以先用水煮软再炒。\n蒜苔不宜炒太久，否则口感不脆。",
+            "menuCookerName": "炒锅",
+            "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172411820.png",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "腊肉",
+                    "materialWeight": "200g"
+                },
+                {
+                    "materialName": "蒜苔",
+                    "materialWeight": "300g"
+                },
+                {
+                    "materialName": "植物油",
+                    "materialWeight": "2汤匙"
+                },
+                {
+                    "materialName": "蚝油",
+                    "materialWeight": "1汤匙"
+                },
+                {
+                    "materialName": "细砂糖",
+                    "materialWeight": "1茶匙"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step0.jpg",
+                    "stepState": "准备好食材，腊肉切小块，蒜苔切小段。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step1.jpg",
+                    "stepState": "冷锅热油，油热后下入腊肉。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step2.jpg",
+                    "stepState": "煎炒至腊肉略干，煸出一些肥油。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step3.jpg",
+                    "stepState": "下入蒜台段。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step4.jpg",
+                    "stepState": "翻炒至蒜台段变软。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step5.jpg",
+                    "stepState": "加入蚝油翻炒均匀。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step6.jpg",
+                    "stepState": "加入细砂糖。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step7.jpg",
+                    "stepState": "翻炒均匀即可出锅。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489032095step8.jpg",
+                    "stepState": "美味上桌，开吃啦！",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "杏仁可可乳酪挞",
+            "menuPic": "http://www.chufang001.com/userimg/114313/cp/1489043323cp.jpg",
+            "menuAuthorName": "小姿饭儿",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/114313/head.jpg?update=1477885276",
+            "menuAuthorId": "1fe5dad9387fb1475385baed92835233",
+            "menuDate": 1489043324,
+            "menuState": "香浓顺滑的乳酪搭配酥脆挞底，唇齿之间萦绕杏仁香 。\n准备工作：黄油软化//奶油奶酪提前放室温备用/预热烤箱180度 \nA为挞底食材 / B为奶酪馅食材",
+            "menuPeopleNum": "0",
+            "menuTips": "非常酥小心操作，烤好完全冷却后，切食\n1.第一步混合面粉是用手搓合成粗粒，要搓至黄油不见与面粉完全混合\n2.食谱适合7寸长方模具",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "A低粉",
+                    "materialWeight": "115g"
+                },
+                {
+                    "materialName": "A大杏仁（扁桃仁）粉",
+                    "materialWeight": "15g"
+                },
+                {
+                    "materialName": "A可可粉",
+                    "materialWeight": "8g"
+                },
+                {
+                    "materialName": "A黄油",
+                    "materialWeight": "85g"
+                },
+                {
+                    "materialName": "A巧克力糖浆",
+                    "materialWeight": "48g"
+                },
+                {
+                    "materialName": "A细砂糖",
+                    "materialWeight": "25g"
+                },
+                {
+                    "materialName": "B奶油奶酪",
+                    "materialWeight": "95g"
+                },
+                {
+                    "materialName": "B全蛋",
+                    "materialWeight": "1只"
+                },
+                {
+                    "materialName": "B细砂糖",
+                    "materialWeight": "45g"
+                },
+                {
+                    "materialName": "B牛奶",
+                    "materialWeight": "100g"
+                },
+                {
+                    "materialName": "B玉米淀粉",
+                    "materialWeight": "5g"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step0.jpg",
+                    "stepState": "挞皮材料除糖浆外混合，用手搓合成粗粒",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step1.jpg",
+                    "stepState": "加入糖浆用刮刀压拌成团",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step2.jpg",
+                    "stepState": "放在油纸上并盖起油纸擀平，盖在模具上，覆盖油纸擀去多余边角",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step3.jpg",
+                    "stepState": "盖油纸，压豆盲烤，175度上下火烤15分钟",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step4.jpg",
+                    "stepState": "油奶酪软化加糖搅拌均匀",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step5.jpg",
+                    "stepState": "鸡蛋打散分多次加入搅拌",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step6.jpg",
+                    "stepState": "成较均匀糊状",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step7.jpg",
+                    "stepState": "牛奶加玉米淀粉搅拌均匀，开小火加热，边加热边搅拌，直至成细腻糊状",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step8.jpg",
+                    "stepState": "将其与奶酪糊拌匀",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step9.jpg",
+                    "stepState": "取出挞底，倒在烤好的挞底内",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/114313/cp/1489043323step10.jpg",
+                    "stepState": "撒一层薄可可粉与大杏仁片装饰，再175度烤28分钟",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "青椒炒黄鳝片",
+            "menuPic": "http://www.chufang001.com/userimg/157303/cp/1489156167cp.jpg",
+            "menuAuthorName": "心在乌云上2013",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/157303/head.jpg?update=1481609851",
+            "menuAuthorId": "b25ee10be05453a6ed87af4af1d1789a",
+            "menuDate": 1489156168,
+            "menuState": "黄鳝肉嫩味鲜，营养价值非常高，黄鳝不仅营养丰富它还含有一种“鳝鱼素”，有清热解毒、凉血止痛、润肠止血等功效，所以在我们这儿经常吃鳝鱼，一般吃的时候段、片、丝都可以，烧的时候蒸、煮、炒都行，这道青椒炒黄鳝片就是把活的黄鳝的骨头去掉取鳝鱼肉片，加青椒爆炒，所以吃起来口感非常的嫩滑，是老幼皆宜的一道下饭菜。",
+            "menuPeopleNum": "3",
+            "menuTips": "炒这菜的特点是大火快炒，这样肉质才会嫩。",
+            "menuCookerName": "炒锅",
+            "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172411820.png",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "黄鳝片",
+                    "materialWeight": "300克"
+                },
+                {
+                    "materialName": "青椒",
+                    "materialWeight": "2个"
+                },
+                {
+                    "materialName": "生抽",
+                    "materialWeight": "1小勺"
+                },
+                {
+                    "materialName": "料酒",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "盐",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "糖",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "生粉",
+                    "materialWeight": "适量"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step0.jpg",
+                    "stepState": "黄鳝片清洗干净后切段，青椒去籽洗净后切块。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step1.jpg",
+                    "stepState": "黄鳝片先用少许盐、料酒、生粉拌匀后腌制一会儿。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step2.jpg",
+                    "stepState": "锅中倒入适量油先爆香姜片。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step3.jpg",
+                    "stepState": "&nbsp;再把青椒片倒入翻炒片刻。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step4.jpg",
+                    "stepState": "再把腌制好的鳝片加入一起翻炒,然后再加适量料酒、盐、生抽、翻炒然后再加适量白糖调味。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157303/cp/1489156167step5.jpg",
+                    "stepState": "翻炒均匀后即可出锅。",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "烤孜然薯角",
+            "menuPic": "http://www.chufang001.com/userimg/157328/cp/1489837248cp.jpg",
+            "menuAuthorName": "美乐猪",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/157328/head.jpg?update=1481672897",
+            "menuAuthorId": "71d0b7c615ac6ff0b9a1366b5e574900",
+            "menuDate": 1489837249,
+            "menuState": "烤薯角，不用油炸更健康，烤出来后外焦里软，简单又好吃，老少皆宜！",
+            "menuPeopleNum": "4",
+            "menuTips": "请根据自家烤箱的脾性调节温度；烤盘是三能屋诺UN10006；普通烤盘请加垫油纸。",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "土豆",
+                    "materialWeight": "2个"
+                },
+                {
+                    "materialName": "孜然粉",
+                    "materialWeight": "1大勺"
+                },
+                {
+                    "materialName": "葱花",
+                    "materialWeight": "少许"
+                },
+                {
+                    "materialName": "盐",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "鸡精",
+                    "materialWeight": "少许"
+                },
+                {
+                    "materialName": "细砂糖",
+                    "materialWeight": "少许"
+                },
+                {
+                    "materialName": "玉米油",
+                    "materialWeight": "1勺"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step0.jpg",
+                    "stepState": "土豆去皮洗净，滚刀切块放入盘中，调入盐和鸡精,加入细砂糖和孜然粉。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step1.jpg",
+                    "stepState": "加入1勺玉米油。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step2.jpg",
+                    "stepState": "用筷子搅拌均匀。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step3.jpg",
+                    "stepState": "将拌好的薯角码放入金盘中。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step4.jpg",
+                    "stepState": "送入事先预热好的烤箱中层，上下火200度，20分钟。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step5.jpg",
+                    "stepState": "取出逐块翻面。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step6.jpg",
+                    "stepState": "再次送入烤箱中层，上下火200度,10-12分钟。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step7.jpg",
+                    "stepState": "出炉后撒上葱花，趁热食用。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157328/cp/1489837248step8.jpg",
+                    "stepState": "微焦里软，非常美味可口。",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+
+        },
+        {
+            "menuName": "鸡扒豆腐",
+            "menuPic": "http://www.chufang001.com/userimg/157573/cp/1489031716cp.jpg",
+            "menuAuthorName": "流水叮叮的夏天",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/157573/head.jpg?update=1489638022",
+            "menuAuthorId": "ec2ecfc30218eb895670f6e16e29c664",
+            "menuDate": 1489031717,
+            "menuState": "鸡扒豆腐也是一道简单又下饭家常菜，煮好后直接拌着米饭吃，可以多吃上一两碗，很开胃哦！",
+            "menuPeopleNum": "3",
+            "menuTips": "番茄可放入滚水煮1-2分钟，可以快速去皮。\n豆腐买嫩豆腐口感更好。",
+            "menuCookerName": "炒锅",
+            "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172411820.png",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 1,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "嫩豆腐",
+                    "materialWeight": "3块"
+                },
+                {
+                    "materialName": "番茄",
+                    "materialWeight": "2个"
+                },
+                {
+                    "materialName": "葱",
+                    "materialWeight": "1根"
+                },
+                {
+                    "materialName": "白皮蒜",
+                    "materialWeight": "3瓣"
+                },
+                {
+                    "materialName": "半肥瘦猪肉",
+                    "materialWeight": "200g"
+                },
+                {
+                    "materialName": "料酒",
+                    "materialWeight": "1汤匙"
+                },
+                {
+                    "materialName": "盐",
+                    "materialWeight": "2茶匙"
+                },
+                {
+                    "materialName": "胡椒粉",
+                    "materialWeight": "1茶匙"
+                },
+                {
+                    "materialName": "蚝油",
+                    "materialWeight": "1汤匙"
+                },
+                {
+                    "materialName": "植物油",
+                    "materialWeight": "2汤匙"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step0.jpg",
+                    "stepState": "准备好材料，猪肉洗净后剁成泥，加入适量料酒，盐，胡椒粉，腌制半小时。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step1.jpg",
+                    "stepState": "番茄去皮切成丁，白皮蒜剁成蒜泥，葱切碎，豆腐用刀划成小块。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step2.jpg",
+                    "stepState": "炒锅烧热后加入适量植物油。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step3.jpg",
+                    "stepState": "油热后下入蒜泥爆香。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step4.jpg",
+                    "stepState": "下入猪肉泥。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step5.jpg",
+                    "stepState": "猪肉煸出香味后，下入番茄丁。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step6.jpg",
+                    "stepState": "番茄丁炒一会后，加入半碗清水，转中小火焖出番茄汁。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step7.jpg",
+                    "stepState": "下入豆腐，转大火烧开。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step8.jpg",
+                    "stepState": "加入少许盐，蚝油翻拌均匀。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step9.jpg",
+                    "stepState": "<br />最后撒点葱花未拌匀即可出锅。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/157573/cp/1489031716step10.jpg",
+                    "stepState": "美味上桌啦~",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "糖醋排骨",
+            "menuPic": "http://www.chufang001.com/userimg/152617/cp/1488521676cp.jpg",
+            "menuAuthorName": "橘橘橘子er",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/152617/head.jpg?update=1482240605",
+            "menuAuthorId": "9b14ee3115fedb8fab9a00595a2d1319",
+            "menuDate": 1488521677,
+            "menuState": "糖醋排骨是我家常吃的一款快手美食\n味道酸酸甜甜的很是美味\n只要记住糖醋汁的比例也可以做糖醋带鱼等美食",
+            "menuPeopleNum": "3",
+            "menuTips": "",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "排骨",
+                    "materialWeight": "15-20根"
+                },
+                {
+                    "materialName": "葱",
+                    "materialWeight": "3小段"
+                },
+                {
+                    "materialName": "蒜",
+                    "materialWeight": "2瓣"
+                },
+                {
+                    "materialName": "桂皮",
+                    "materialWeight": "1个"
+                },
+                {
+                    "materialName": "八角",
+                    "materialWeight": "1个"
+                },
+                {
+                    "materialName": "花椒",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "油",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "白芝麻",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "糖醋汁： 料酒",
+                    "materialWeight": "1小勺"
+                },
+                {
+                    "materialName": "酱油",
+                    "materialWeight": "2小勺"
+                },
+                {
+                    "materialName": "糖",
+                    "materialWeight": "3小勺"
+                },
+                {
+                    "materialName": "醋",
+                    "materialWeight": "4小勺"
+                },
+                {
+                    "materialName": "水",
+                    "materialWeight": "5小勺"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/152617/cp/1488521676step0.jpg",
+                    "stepState": "1.排骨清洗干净&nbsp;准备好所有的材料备用<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/152617/cp/1488521676step1.jpg",
+                    "stepState": "2.锅内放入适量的清水&nbsp;冷水放入排骨&nbsp;葱姜蒜&nbsp;八角&nbsp;桂皮&nbsp;花椒中火煮30分钟左右<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/152617/cp/1488521676step2.jpg",
+                    "stepState": "3.煮好控干水份另起一口锅&nbsp;小火倒入少许的植物油<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/152617/cp/1488521676step3.jpg",
+                    "stepState": "4.放入排骨小火两面煎黄<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/152617/cp/1488521676step4.jpg",
+                    "stepState": "5.倒入糖醋汁&nbsp;小火收汁&nbsp;出锅之前撒上适量的白芝麻即可",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "电影《海鸥食堂》的肉桂卷",
+            "menuPic": "http://www.chufang001.com/userimg/119572/cp/1489320314cp.jpg",
+            "menuAuthorName": "Tiner宅宅",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/119572/head.jpg?update=1484394732",
+            "menuAuthorId": "930fdcea173b2621121562177b4e64c8",
+            "menuDate": 1489320315,
+            "menuState": "【简直香到灵魂出窍！！】\n一起来做电影「海鸥食堂」里的【肉桂卷】～\n在电影里看她们做“肉桂卷”的时候，实在是控寄不住我记几！！\n手痒嘴馋，自己动手做～果然！！香料面包的香味真的不是盖的啊！！\n我更偏爱红糖，它能散发更浓郁的香气，所以内陷里放的红糖～\n这次是不太需要揉面的方法做面包，不但省力气～[doge]而且面包独特的发酵香味浓郁哦～",
+            "menuPeopleNum": "5",
+            "menuTips": "1.无需过多的揉面，使用长时间冷藏发酵的方法，使面团具有更浓厚的发酵香味，做出来的面包还能一样柔软。\n2.涂抹黄油和撒馅料时，避免撒在卷起的两端，使得面团无法封紧，馅料漏出。\n3.确保二发充足了再刷蛋液入烤箱。\n新浪微博【Tiner宅宅】\n微信公众号【小阿宅】",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 1,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "高筋面粉（面团）",
+                    "materialWeight": "250g"
+                },
+                {
+                    "materialName": "盐（面团）",
+                    "materialWeight": "2g"
+                },
+                {
+                    "materialName": "鸡蛋液（面团）",
+                    "materialWeight": "25g"
+                },
+                {
+                    "materialName": "牛奶（面团）",
+                    "materialWeight": "135g"
+                },
+                {
+                    "materialName": "肉桂粉（馅料）",
+                    "materialWeight": "4g"
+                },
+                {
+                    "materialName": "红糖（馅料）",
+                    "materialWeight": "30g"
+                },
+                {
+                    "materialName": "即发酵母（面团）",
+                    "materialWeight": "4g"
+                },
+                {
+                    "materialName": "黄油（面团）",
+                    "materialWeight": "20g"
+                },
+                {
+                    "materialName": "细砂糖（面团）",
+                    "materialWeight": "28g"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320314step0.png",
+                    "stepState": "将面团材料（除了黄油之外）全部倒入盆中，记得盐要避免直接接触酵母，先用筷子将材料搅拌均匀。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step1.png",
+                    "stepState": "用手揉成面团，揉至光滑不粘手即可。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step2.png",
+                    "stepState": "将黄油加入面团中，揉均匀至不粘手即可。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step3.png",
+                    "stepState": "面团装入保鲜袋中，打个结，预留一定空间给面团发酵～放入冰箱冷藏发酵约16-18小时。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step4.png",
+                    "stepState": "将冷藏好发酵好的面团取出揉一揉，擀成方形。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step5.png",
+                    "stepState": "黄油提前隔热水融化，刷一层在整形好的面团上，边角要留余量不要全涂。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step6.png",
+                    "stepState": "馅料中的红糖（可提前用料理机打细）和肉桂粉混合均匀，均匀撒在面团上，边角留一些余量。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step7.png",
+                    "stepState": "把面团卷起来。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step8.png",
+                    "stepState": "盖上保鲜膜松弛15分钟。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step9.png",
+                    "stepState": "面团斜切，去掉两头，大概能做八九个，具体个数也看自己切的大小了。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step10.png",
+                    "stepState": "将每个小面团短的一端朝上放置，用筷子压一下。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1489320772step11.png",
+                    "stepState": "摆入烤盘中，发酵至两倍大，刷上蛋液，放入预热好约200度的烤箱中烘烤18分钟左右即可。",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "可可曲奇",
+            "menuPic": "http://www.chufang001.com/userimg/116818/cp/1489227715cp.jpg",
+            "menuAuthorName": "elsa飞雪",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/116818/head.jpg?update=1446477556",
+            "menuAuthorId": "acec169faebc43978edbf75bf46362f3",
+            "menuDate": 1489227717,
+            "menuState": "香酥可口的可可曲奇，很美味哦",
+            "menuPeopleNum": "2",
+            "menuTips": "天气冷，曲奇不容易挤，可隔着裱花袋用热水烫软化再挤就很容易了",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "电烤箱",
+            "menuAppliance": "http://www.chufang001.com/upfiles/shicai_pic/201532172931354.png",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "低筋粉",
+                    "materialWeight": "65克"
+                },
+                {
+                    "materialName": "黄油",
+                    "materialWeight": "65克"
+                },
+                {
+                    "materialName": "糖粉",
+                    "materialWeight": "25克"
+                },
+                {
+                    "materialName": "牛奶",
+                    "materialWeight": "10克"
+                },
+                {
+                    "materialName": "可可粉",
+                    "materialWeight": "5克"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step0.jpg",
+                    "stepState": "将黄油切小块软化，加入糖粉",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step1.jpg",
+                    "stepState": "用打蛋器将黄油打发至体积膨大，颜色变浅",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step2.jpg",
+                    "stepState": "将牛奶加入到黄油中，搅打至完全融合",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step3.jpg",
+                    "stepState": "将低筋粉和可可粉过筛到黄油中",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step4.jpg",
+                    "stepState": "用刮刀搅拌匀无干粉",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step5.jpg",
+                    "stepState": "&nbsp;将拌好的面团装入裱花袋，将曲奇挤在烤盘上",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step6.jpg",
+                    "stepState": "将烤箱设置上下火160度预热，将烤盘放入烤箱中层烤10分钟左右即可",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/116818/cp/1489227715step7.jpg",
+                    "stepState": "将烤盘取出放在晾网上晾凉即可食用",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
+        {
+            "menuName": "烤香菇",
+            "menuPic": "http://www.chufang001.com/userimg/127850/cp/1486975976cp.jpg",
+            "menuAuthorName": "Q猪宝宝",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/127850/head.jpg?update=1473209149",
+            "menuAuthorId": "89df736a804c3a4461b4aca6354adfe3",
+            "menuDate": 1486975977,
+            "menuState": "香菇，又名冬菇，是一种生长在木材上的真菌类。它含有一种特有的香味物质——香菇精，形成独特的菇香，所以称为“香菇”。由于营养丰富，香气沁脾，味道鲜美，素有“菇中之王”、“蘑菇皇后”、“蔬菜之冠”的美称。 在香菇的蛋白质中,含有18种氨基酸。而人体所必需的8种氨基酸，香菇就占了7种。在日本，认为香菇和银耳同是防老长寿的“妙药”。 \n鲜香菇的热量非常低，营养有非常丰富，氨基酸和纤维素含量都比较高，还含有一定量的维生素，适宜减肥期间经常食用。",
+            "menuPeopleNum": "2",
+            "menuTips": "建议购买新鲜香菇烘烤，不用干香菇。肉末中加入香葱芫茜能增香，没有的话也可以忽略不用。调味时加入香油，烘烤的过程香气四溢，成品更好吃，花生油取缔不了这个味道。",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "电烤箱",
+            "menuAppliance": "http://www.chufang001.com/upfiles/shicai_pic/201532172931354.png",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "新鲜香菇",
+                    "materialWeight": "125克"
+                },
+                {
+                    "materialName": "瘦肉",
+                    "materialWeight": "75克"
+                },
+                {
+                    "materialName": "鸡精",
+                    "materialWeight": "1/2小勺"
+                },
+                {
+                    "materialName": "砂糖",
+                    "materialWeight": "1/2小勺"
+                },
+                {
+                    "materialName": "酱油",
+                    "materialWeight": "1小勺"
+                },
+                {
+                    "materialName": "玉米淀粉",
+                    "materialWeight": "1小勺"
+                },
+                {
+                    "materialName": "葱花芫茜",
+                    "materialWeight": "15克"
+                },
+                {
+                    "materialName": "香油",
+                    "materialWeight": "1小勺"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step0.jpg",
+                    "stepState": "瘦肉剁碎，葱和芫茜（香菜）切碎。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step1.jpg",
+                    "stepState": "将肉末和芫茜葱花混合，加入调味料，拌均匀。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step2.jpg",
+                    "stepState": "香菇去蒂，洗净晾干。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step3.jpg",
+                    "stepState": "在菌盖中酿入肉馅，放在烤网上。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step4.jpg",
+                    "stepState": "烤箱上下火200度预热5分钟后放入中层，烤10分钟，取出。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step5.jpg",
+                    "stepState": "刷上食用油，再放入烤箱烘烤10分钟即可。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1486975976step6.jpg",
+                    "stepState": "趁热品尝。",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        }
+    ]
+}
