@@ -1,7 +1,8 @@
 angular.module('myApp')
-    .controller('activityCtrl', ['$scope', '$rootScope', function($scope, $rootScope) {
+    .controller('activityCtrl', ['$scope', '$rootScope', '$location', function($scope, $rootScope, $location) {
         $scope.name = '活动';
-        $scope.tabFlag = true;
+        // 初始化$tabFlag的值的时候也有坑
+        $location.$$path=='/activity/offLine'?$scope.tabFlag = false:$scope.tabFlag = true;
         $scope.tab_passHash = function(hash) {
             switch (hash) {
                 case 'onLine':

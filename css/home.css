@@ -70,6 +70,31 @@ input:-ms-input-placeholder {
     margin-top: .2rem;
 }
 
+.underNav{
+    height: 2.13rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.underNav ul{
+    width: 5.57rem;
+    height: 2.13rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.underNav ul li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.underNav ul img{
+    width: .75rem;
+    height: .75rem;
+}
+.underNav ul li a:nth-of-type(2){
+    font-size: .37rem;
+}
+
 
 .hotMenu .right, .hotMenu .left {
     width: 40%;

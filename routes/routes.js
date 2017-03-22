@@ -4,6 +4,8 @@ angular.module('myApp', ['ui.router'])
         $urlRouterProvider
         .when('', '/home')
         .when('/activity', '/activity/onLine')
+        .when('/basket', '/basket/defaultBasket')
+        .when('/createActivity', '/createActivity/createOnlineAc')
 
         $stateProvider
         .state('home', {
@@ -39,5 +41,32 @@ angular.module('myApp', ['ui.router'])
             url: '/mine',
             templateUrl: '/view/mine.html',
             controller: 'mineCtrl'
+        })
+        .state('basket', {
+            url: '/basket',
+            templateUrl: '/view/basket.html',
+            controller: 'basketCtrl'
+        })
+        .state('basket.defaultBasket', {
+            url: '/defaultBasket',
+            templateUrl: '/view/defaultBasket.html',
+        })
+        .state('breakfast', {
+            url: '/breakfast',
+            templateUrl: '/view/breakfast.html',
+            controller: 'breakfastCtrl'
+        })
+        .state('createActivity', {
+            url: '/createActivity',
+            templateUrl: '/view/createActivity.html',
+            controller: 'createActivityCtrl'
+        })
+        .state('createActivity.createOnlineAc', {
+            url: '/createOnlineAc',
+            templateUrl: '/view/createOnlineAc.html'
+        })
+        .state('createActivity.createOfflineAc', {
+            url: '/createOfflineAc',
+            templateUrl: '/view/createOfflineAc.html'
         })
     }])

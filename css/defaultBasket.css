@@ -1,0 +1,15 @@
+p {
+    width: 2.83rem;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .4rem;
+    color: #9a9a9a;
+}
+
+.defaultBasket {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

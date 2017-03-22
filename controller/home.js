@@ -18,7 +18,7 @@ angular.module('myApp')
 
         //测试拿数据
         testService.then(function(response){
-            console.log(response);
+            // console.log(response);
         }, function(response){
             console.log(response);
         })

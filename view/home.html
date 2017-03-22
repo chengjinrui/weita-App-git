@@ -4,7 +4,7 @@
 <div class="home">
 
     <header>
-        <a href="#"><img src="../images/home/01.png"></a>
+        <a ui-sref="basket"><img src="../images/home/01.png"></a>
         <input type="text" placeholder="搜索菜谱, 食材, 知食...">
     </header>
 
@@ -32,7 +32,14 @@
     </div>
 
     <nav class="underNav">
-
+        <ul>
+            <li>
+                <a ui-sref="breakfast"><img src="../images/home/10.png"></a><a href="#">早餐</a></li>
+            <li>
+                <a href="#"><img src="../images/home/11.png"></a><a href="#">午餐</a></li>
+            <li>
+                <a href="#"><img src="../images/home/12.png"></a><a href="#">晚餐</a></li>
+        </ul>
     </nav>
 
     <section ng-repeat="item in data" class="hotMenu">
