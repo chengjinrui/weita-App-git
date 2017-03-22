@@ -11,6 +11,10 @@ angular.module('myApp')
     .service('onLineService', ['$http', function ($http) {
         return $http.get('http://localhost:8888/data/onLineActivity.json')
     }])
+// 菜单详情拿数据
+    .service('menuDetailService', ['$http', function ($http) {
+        return $http.get('http://localhost:8888/data/allMenu_showHome.json')
+    }])
 // 测试拿数据
     .service('testService', [ '$http', function($http){
         return $http.get('http://proxy.e12e.com/?http://wap.chufang001.com/wapdata/homepage.asp')

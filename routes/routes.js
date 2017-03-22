@@ -52,10 +52,10 @@ angular.module('myApp', ['ui.router'])
             url: '/defaultBasket',
             templateUrl: '/view/defaultBasket.html',
         })
-        .state('breakfast', {
-            url: '/breakfast',
-            templateUrl: '/view/breakfast.html',
-            controller: 'breakfastCtrl'
+        .state('menuDetail', {
+            url: '/menuDetail:materialName',
+            templateUrl: '/view/menuDetail.html',
+            controller: 'menuDetailCtrl'
         })
         .state('createActivity', {
             url: '/createActivity',
