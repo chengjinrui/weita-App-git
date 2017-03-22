@@ -1,0 +1,122 @@
+{
+    "result": "succ",
+    "data": [
+        {
+            "activeId": "325",
+            "islike": 0,
+            "userid": "39f3230ddd27d3d83bcf5447a4a2a12c",
+            "username": "他酱",
+            "title": "味值抽奖|用小花布迎接春天",
+            "toppic": "http://www.chufang001.com/userimg/103896/active/1488792418a.png",
+            "activecontent": "让生活成为杰作，<br />你不必是艺术家。<br />一款清新的餐巾，<br />就可以给你如沐春风的惬意感。<br />纯棉质地，<br />轻薄舒适，<br />是衬托美食与美器的好伴侣。<br /><br />现在就至「味他」APP，<br />点击轮播的图片“味值抽奖”，<br />选择当期活动参与吧~",
+            "activeSort": 0,
+            "startdate": "2017/3/1",
+            "enddate": "2017/3/31",
+            "starttime": null,
+            "endtime": null,
+            "address": null,
+            "showTime": 11,
+            "meJoin": 1,
+            "alljoin": 14,
+            "alllike": 0,
+            "allpic": 4,
+            "tags": [{
+                    "tag": "味值"
+                },
+                {
+                    "tag": "抽奖"
+                },
+                {
+                    "tag": "餐巾"
+                },
+                {
+                    "tag": "道具"
+                },
+                {
+                    "tag": "摄影"
+                }
+            ],
+            "pics": [{
+                    "picId": 2119,
+                    "pic": "http://www.chufang001.com/userimg/103896/active/14887925153c_small.jpg"
+                },
+                {
+                    "picId": 2118,
+                    "pic": "http://www.chufang001.com/userimg/103896/active/14887925152c_small.jpg"
+                },
+                {
+                    "picId": 2117,
+                    "pic": "http://www.chufang001.com/userimg/103896/active/14887925141c_small.jpg"
+                },
+                {
+                    "picId": 2116,
+                    "pic": "http://www.chufang001.com/userimg/103896/active/14887925130c_small.jpg"
+                }
+            ],
+            "discuss": []
+        },
+        {
+            "activeId": "326",
+            "islike": 0,
+            "userid": "39f3230ddd27d3d83bcf5447a4a2a12c",
+            "username": "他酱",
+            "title": "橙色星期五|黑白双盘",
+            "toppic": "http://www.chufang001.com/userimg/103896/active/1488941880a.png",
+            "activecontent": "本周五老时间10:30迎来黑白两色双耳盘，<br />磨砂的质感，<br />再加上双耳的灵动，<br />非常适合春日午后，<br />一盘沙拉或是一盘甜点的闺蜜time。<br /><br />注意调好闹钟，<br />限量三件，<br />抢到全凭实力哦~<br /><br />现在就至「味他」APP，<br />点击轮播图的“味值兑换”，<br />进入抢购。<br />",
+            "activeSort": 0,
+            "startdate": "2017/3/10",
+            "enddate": "2017/3/17",
+            "starttime": null,
+            "endtime": null,
+            "address": null,
+            "showTime": 0,
+            "meJoin": 0,
+            "alljoin": 19,
+            "alllike": 1,
+            "allpic": 1,
+            "tags": [{
+                    "tag": "兑换"
+                },
+                {
+                    "tag": "活动"
+                },
+                {
+                    "tag": "餐具"
+                },
+                {
+                    "tag": "味值"
+                }
+            ],
+            "pics": [{
+                "picId": 2122,
+                "pic": "http://www.chufang001.com/userimg/160926/active/20170317223753c_small.jpg"
+            }],
+            "discuss": []
+        },
+        {
+            "activeId": "327",
+            "islike": 0,
+            "userid": "39f3230ddd27d3d83bcf5447a4a2a12c",
+            "username": "他酱",
+            "title": "Feast & Fabulous",
+            "toppic": "http://www.chufang001.com/userimg/103896/active/1489113602a.png",
+            "activecontent": "来自「近餐」，Feast&nbsp;&&nbsp;Fabulous纯棉T上架啦~<br />将至春季，给自己一个「好吃」的新造型~",
+            "activeSort": 0,
+            "startdate": "2017/3/10",
+            "enddate": "2017/4/10",
+            "starttime": null,
+            "endtime": null,
+            "address": null,
+            "showTime": 21,
+            "meJoin": 1,
+            "alljoin": 6,
+            "alllike": 0,
+            "allpic": 0,
+            "tags": [{
+                "tag": "衣服"
+            }],
+            "pics": [],
+            "discuss": []
+        }
+    ]
+}

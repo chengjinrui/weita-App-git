@@ -24,6 +24,15 @@ angular.module('myApp', ['ui.router'])
             templateUrl: '/view/activity.html',
             controller: 'activityCtrl'
         })
+        .state('activity.onLine', {
+            url: '/onLine',
+            templateUrl: '/view/onLine.html',
+            controller: 'onLineCtrl'
+        })
+        .state('activity.offLine', {
+            url: '/offLine',
+            templateUrl: '/view/offLine.html',
+        })
         .state('mine', {
             url: '/mine',
             templateUrl: '/view/mine.html',

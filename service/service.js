@@ -7,3 +7,11 @@ angular.module('myApp')
     .service('menuDetailService', ['$http', function($http){
         return $http.get('http://localhost:8888/data/menuDetails.json')
     }])
+// 线上活动
+    .service('onLineService', ['$http', function ($http) {
+        return $http.get('http://localhost:8888/data/onLineActivity.json')
+    }])
+// 测试拿数据
+    .service('testService', [ '$http', function($http){
+        return $http.get('http://proxy.e12e.com/?http://wap.chufang001.com/wapdata/homepage.asp')
+    }])
