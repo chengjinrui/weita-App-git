@@ -17,34 +17,35 @@
 
     <div class="ui-view"></div>
 
-    <div class="footer" ng-click="changeIconBg();">
-        <section >
-            <a ui-sref="home"><img src="./images/footer/home03.png"></a>
+    <div class="footer" >
+        <section ng-click="changeIconBg('home');">
+            <a ui-sref="home"></a>
             <a ui-sref="home">主页</a>
         </section>
-        <section >
-            <a ui-sref="information"><img src="./images/footer/information01.png"></a>
+        <section ng-click="changeIconBg('information');">
+            <a ui-sref="information"></a>
             <a ui-sref="information">消息</a>
         </section>
-        <section >
-            <a ui-sref="news"><img src="./images/footer/news01.png"></a>
+        <section ng-click="changeIconBg('news');">
+            <a ui-sref="news"></a>
             <a ui-sref="news">动态</a>
         </section>
-        <section >
-            <a ui-sref="activity"><img src="./images/footer/activity01.png"></a>
+        <section ng-click="changeIconBg('activity');">
+            <a ui-sref="activity"></a>
             <a ui-sref="activity">活动</a>
         </section>
-        <section >
-            <a ui-sref="mine"><img src="./images/footer/mine01.png"></a>
+        <section ng-click="changeIconBg('mine');">
+            <a ui-sref="mine"></a>
             <a ui-sref="mine">个人</a>
         </section>
     </div>
 
     <!-- 路由引入 -->
     <script src="./routes/routes.js" charset="utf-8"></script>
-    <!-- 服务引入  我暂时还没写 要写的话就在路由引入之后 控制器引入之前 -->
+    <!-- 服务引入  在路由引入之后 控制器引入之前 -->
     <script src="./service/service.js" charset="utf-8"></script>
-
+    <!-- 过滤器引入 -->
+    <script src="./filter/filter.js" charset="utf-8"></script>
     <!-- 这里引入了各个控制器的js -->
     <script src="./controller/mainCtrl.js" charset="utf-8"></script>
     <script src="./controller/home.js" charset="utf-8"></script>

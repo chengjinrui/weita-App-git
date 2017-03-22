@@ -11,9 +11,9 @@
 
 }
 .showActivities .hedline p{
-	font-size: 0.347222rem;
+	font-size: .43rem;
 	color: #000;
-	text-indent: 0.166667rem;
+	text-indent: .27rem;
 }
 .content{
 	display: flex;
@@ -21,6 +21,7 @@
 	box-shadow: 0.069444rem 0.069444rem 0.069444rem #ededed;
 }
 .content p{
+	color: #666;
 	font-size:0.347222rem;
 	height: 0.659722rem;
 	line-height: 0.659722rem;
@@ -34,9 +35,11 @@
 .content .content-left2 li{
 	font-size:0.347222rem;
 	margin-left: 0.347222rem;
+	color: #666;
 }
 .content .content-left2 li span{
 	color: #ec6f48;
+	margin-right: .05rem;
 }
 .content-right img{
 	width: 2.5rem;

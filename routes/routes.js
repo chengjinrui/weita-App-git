@@ -1,7 +1,9 @@
 angular.module('myApp', ['ui.router'])
     .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
-        $urlRouterProvider.when('', '/home')
+        $urlRouterProvider
+        .when('', '/home')
+        .when('/activity', '/activity/onLine')
 
         $stateProvider
         .state('home', {

@@ -40,19 +40,46 @@
     justify-content: center;
     align-items: center;
 }
-.footer section:nth-of-type(1) a:nth-of-type(1) img{
+/*   -----------  */
+
+.footer section:nth-of-type(1) a:nth-of-type(1){
     width: .75rem;
     height: .64rem;
 }
-.footer section:nth-of-type(3) a:nth-of-type(1) img{
-    width: .67rem;
-    height: .64rem;
+.footer section:nth-of-type(1){
+    background: url('../images/footer/home02.png') no-repeat top center;
+    background-size: .75rem .64rem;
 }
-.footer section:nth-of-type(4) a:nth-of-type(1) img,.footer section:nth-of-type(2) a:nth-of-type(1) img{
+.footer section:nth-of-type(2) a:nth-of-type(1),.footer section:nth-of-type(4) a:nth-of-type(1){
     width: .48rem;
     height: .64rem;
 }
-.footer section:nth-of-type(5) a:nth-of-type(1) img{
+.footer section:nth-of-type(2){
+    background: url('../images/footer/information01.png') no-repeat top center;
+    background-size: .48rem .64rem;
+}
+.footer section:nth-of-type(3) a:nth-of-type(1){
+    width: .67rem;
+    height: .64rem;
+}
+.footer section:nth-of-type(3){
+    background: url('../images/footer/news01.png') no-repeat top center;
+    background-size: .67rem .64rem;
+}
+.footer section:nth-of-type(4){
+    background: url('../images/footer/activity01.png') no-repeat top center;
+    background-size: .48rem .64rem;
+}
+.footer section:nth-of-type(5) a:nth-of-type(1){
     width: .63rem;
+    height: .68rem;
+}
+.footer section:nth-of-type(5){
+    background: url('../images/footer/mine01.png') no-repeat top center;
+    background-size: .63rem .68rem;
+}
+
+.footer a:nth-of-type(1){
+    width: .70rem;
     height: .68rem;
 }
