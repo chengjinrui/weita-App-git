@@ -15,7 +15,8 @@
 </head>
 <body ng-controller="MainCtrl as ctrl">
 
-    <div class="ui-view"></div>
+    <!-- 起id 为的是之后在activity 隐藏footer后能找到 -->
+    <div class="ui-view" id="indexFooter"></div>
 
     <div class="footer" >
         <section ng-click="changeIconBg('home');">
@@ -54,6 +55,7 @@
     <script src="./controller/activity.js" charset="utf-8"></script>
     <script src="./controller/mine.js" charset="utf-8"></script>
     <script src="./controller/onLine.js" charset="utf-8"></script>
+    <script src="./controller/offLine.js" charset="utf-8"></script>
     <script src="./controller/basket.js" charset="utf-8"></script>
     <script src="./controller/breakfast.js" charset="utf-8"></script>
     <script src="./controller/createActivity.js" charset="utf-8"></script>

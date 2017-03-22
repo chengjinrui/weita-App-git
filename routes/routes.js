@@ -36,6 +36,7 @@ angular.module('myApp', ['ui.router'])
         .state('activity.offLine', {
             url: '/offLine',
             templateUrl: '/view/offLine.html',
+            controller: 'offLineCtrl'
         })
         .state('mine', {
             url: '/mine',
