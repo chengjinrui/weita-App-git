@@ -7,5 +7,12 @@ angular.module('myApp')
         },function(response){
             console.log(response);
         })
-
+        // 轮播
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            autoplay: 1000,
+            autoplayDisableOnInteraction : false,
+            loop: false
+        });
     }])
