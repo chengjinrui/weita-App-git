@@ -95,4 +95,11 @@ angular.module('myApp', ['ui.router'])
             templateUrl: '/view/classify_material.html',
             controller: 'classifyMatCtrl'
         })
+
+        // 动态 展示怎么去做的页面
+        .state('showHowToDo', {
+            url: '/showHowToDo:menuName',
+            templateUrl: '/view/showHowToDo.html',
+            controller: 'showHowToDoCtrl'
+        })
     }])

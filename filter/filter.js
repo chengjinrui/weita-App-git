@@ -18,3 +18,15 @@ angular.module('myApp')
             return result;
         }
     }])
+
+    .filter('timeStampTurnFilter', [ function () {
+        var newDate = new Date();
+
+        return function (timeStamp) {
+            // console.log(timeStamp);
+            newDate.setTime(timeStamp * 1000)
+            // console.log(newDate.toISOString());
+            return newDate.toISOString();
+        }
+
+    }])

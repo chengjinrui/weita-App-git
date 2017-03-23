@@ -1,0 +1,274 @@
+
+header{
+	background-color: #f7f7f7;
+	height: 1.6rem;
+	width: 10.0rem;
+	/*text-align: center;*/
+	line-height: 1.6rem;
+	color: #535353;
+	font-size: 0.373333rem;
+	box-shadow: 0 0.053333rem 0 #f7f7f7;
+	margin: 0 0 0.266667rem 0;
+}
+header img{
+	float: left;
+	margin: 0.533333rem 0.24rem 0 0.666667rem;
+	width: 0.24rem;
+	height: 0.48rem;
+}
+header span{
+	float: left;
+	margin: 0 2.8rem 0 0;
+}
+.banner{
+	width: 10.0rem;
+	height: 6.666667rem;
+}
+.banner img{
+	width: 10.0rem;
+	height: 6.666667rem;
+}
+.action{
+	width: 9.066667rem;
+	margin: 0 0 0 0.466667rem;
+
+}
+.action .pige{
+	height: 1.333333rem;
+	width: 9.066667rem;
+	margin: 0.64rem 0 0 0;
+	border-bottom: 0.013333rem solid #eeeeee
+}
+.action .pige li{
+	float: left;
+	font-size: 0.4rem;
+}
+.action .pige li:first-child{
+	float: left;
+	/*margin: 0 0 0 0.64rem;*/
+}
+.action .pige li:last-child{
+	float: right;
+	margin: 0 0.64rem 0 0 ;
+}
+.figure_top .pic1{
+	float: left;
+	width: 0.933333rem;
+	height: 0.933333rem;
+	margin: 0.32rem 0.506667rem 0 0.133333rem;
+}
+.figure_top .mydiv{
+	width: 9.066667rem;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	font-size: 0.333333rem;
+}
+.figure_top .mydiv .user_name{
+	color: #ffa899;
+}
+.figure_top .mydiv .chang_time{
+	color: #9b9b9b;
+	float: right;
+	margin: 0 0.133333rem 0 0;
+}
+.figure_top figcaption p{
+	font-size:  0.306667rem;
+	color: #6b6b6b;
+	line-height: 0.533333rem;
+	margin: 0 0 0.586667rem 0;
+}
+.figure_top .db{
+	float: right;
+}
+.figure_top .db p{
+	width: 3.066667rem;
+	height: 1.2rem;
+	float: left;
+	font-size: 0.4rem;
+	color: #f5fcf4;
+	border-radius: 0.066667rem;
+	margin: 0 0.533333rem 0 0;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.figure_top .join_food{
+	background: #ee6e47;
+}
+.figure_top .want_do{
+	background: #eea137;
+}
+.size_munber{
+	width: 10.0rem;
+	height: 1.28rem;
+	line-height: 1.28rem;
+	font-size: 0.32rem;
+	margin:  0.666667rem 0 0 0 ;
+	border-top: 0.013333rem solid #efefef;
+}
+.size_munber span{
+	float: left;
+	/*margin: 0 0 0 0.666667rem;*/
+}
+.size_munber ul li{
+	float: left;
+	margin: 0 0 0 0.571429rem;
+}
+.size_munber ul li img{
+	width: 0.253333rem;
+	height: 0.373333rem;
+}
+.information{
+	width: 8.733333rem;
+	border-top: 0.013333rem solid #efefef;
+}
+.information p{
+	width: 8.733333rem;
+	height: 1.506667rem;
+	font-size: 0.4rem;
+	line-height: 1.506667rem;
+
+
+}
+.information p span:first-child{
+	font-weight: bold;
+	color: #2f2f2f;
+	/*margin: 0 0 0 0.666667rem;*/
+}
+.information p span:last-child{
+	width: 2.613333rem;
+	height: 0.8rem;
+	display: block;
+	border-radius: 0.4rem;
+	float: right;
+	line-height: 0.8rem;
+	text-align: center;
+	background: #eea137;
+	color: #fffbe3;
+	margin: 0.571429rem 0.571429rem 0 0;
+}
+ol{
+	margin: 0.4rem 0 0.4rem 0.266667rem;
+	width: 8.133333rem;
+	height: 5.466667rem;
+	list-style: auto;
+	border:0.013333rem solid #efefef;
+}
+ol li{
+	height: 1.066667rem;
+	width: 8.133333rem;
+	line-height: 1.066667rem;
+	border-bottom: 0.013333rem solid #f8f8f8;
+	font-size: 0.32rem;
+	color: #5e5e5e;
+}
+ol li span:first-child{
+	margin:  0 0 0 0.626667rem;
+}
+ol li span:last-child{
+	float: right;
+	margin: 0 1.466667rem 0 0 ;
+}
+.root{
+	height: 3.466667rem;
+	width: 8.666667rem;
+	font-size: 0.36rem;
+	color: #000000;
+	border-bottom: 0.013333rem solid #ebebe9;
+	border-top: 0.013333rem solid #ebebe9;
+}
+.root span{
+	float: left;
+	margin: 0.586667rem 0 0 0;
+}
+.root img{
+	width: 1.866667rem;
+	height: 1.4rem;
+	float: right;
+	margin: 1.6rem 0.533333rem 0 0;
+}
+.step{
+	width: 8.733333rem;
+	border-top: 0.013333rem solid #efefef;
+}
+.step ul{
+	margin: 0.8rem 0 0 0;
+}
+.step .step_name{
+	margin: 0.586667rem 0 0 0;
+	font-size: 0.4rem;
+}
+.step figure figcaption{
+	width: 5.0rem;
+}
+.step figure figcaption p{
+	padding: 0.586667rem 0 0 0;
+}
+.step figure figcaption .number_number{
+	color: #e9767b;
+}
+.step figure{
+	width: 8.933333rem;
+	height: 3.6rem;
+	font-size: 0.32rem;
+	color: #9d9d9d;
+
+}
+.step figure img{
+	width: 4.266667rem;
+	height: 2.84rem;
+	float: right;
+}
+.sufee{
+	margin: 0.48rem 0 0 0;
+	width: 8.733333rem;
+	height: 3.466667rem;
+	border-top: 0.013333rem solid #efefef;
+}
+.sufee p{
+	font-size: 0.4rem;
+	color: #444444;
+	margin: 0.586667rem 0 0.666667rem 0;
+}
+.sufee ul{
+	font-size: 0.266667rem;
+	color: #595959;
+}
+.sufee ul li{
+	height: 0.533333rem;
+	line-height: 0.533333rem;
+}
+.eval{
+	width: 8.733333rem;
+	height: 7.866667rem;
+	/*background: #eeeeee;*/
+	color: #da805d;
+}
+.eval span{
+	color: #000000;
+	float: left;
+	font-size: 0.4rem;
+}
+.eval .your_picture{
+	float: left;
+	margin: 3.2rem 0 0 2.0rem;
+	font-size: 0.4rem;
+}
+.last{
+	height: 1.142857rem;
+	line-height: 1.142857rem;
+	margin: 0.266667rem 0 0 0;
+	height: 1.2rem;
+	width: 8.733333rem;
+	font-size: 0.4rem;
+}
+.last b{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #2c2c2c;
+
+}
+.last p{
+	float: right;
+	margin: 0 0.266667rem 0 0;
+	color: #ee744e;
+}

@@ -1,0 +1,87 @@
+<link rel="stylesheet" href="./css/showHowToDo.css">
+
+<div class="showHowToDo">
+
+    <header><img src="../images/news/narrow.jpg" onclick="history.back()"><span>动态</span>{{ currentMenu.menuName }}</header>
+
+    <div class="banner">
+        <img ng-src="{{ currentMenu.menuPic }}" />
+    </div>
+    <div class="action">
+        <ul class="pige">
+            <li>{{ currentMenu.menuName }}</li>
+            <li><img src="../images/news/heardwhilt.jpg" /></li>
+        </ul>
+        <figure class="figure_top clear">
+            <div class="mydiv">
+                <img ng-src="{{ currentMenu.menuAuthorIcon }}" class="pic1" />
+                <span class="user_name">{{ currentMenu.menuAuthorName }}</span>
+                <span class="chang_time">{{ currentMenu.menuDate | timeStampTurnFilter | limitTo: 10 }}</span>
+            </div>
+            <figcaption>
+                <p>{{ currentMenu.menuState }}</p>
+                <div class="db">
+                    <p class="join_food">加入食单</p>
+                    <p class="want_do">想做</p>
+                </div>
+
+            </figcaption>
+
+        </figure>
+        <div class="size_munber">
+            <span>适合人份:</span>
+            <ul>
+                <li>
+                    <img src="../images/news/samll_people.jpg" />
+                </li>
+                <li>
+                    <img src="../images/news/samll_people.jpg" />
+                </li>
+            </ul>
+        </div>
+        <div class="information">
+            <p>
+                <span>用料:</span>
+                <span>+菜篮子</span>
+            </p>
+            <ol>
+                <li ng-repeat=" item in currentMenu.menuMaterial "><span>{{ item.materialName }}</span><span>{{ item.materialWeight }}</span></li>
+            </ol>
+            <div class="root">
+                <span>推荐用具:</span>
+                <img ng-src="{{ currentMenu.menuCooker }}"/>
+            </div>
+        </div>
+        <div class="step">
+            <p class="step_name">步骤</p>
+            <ul>
+                <li ng-repeat=" item in currentMenu.menuStep ">
+                    <figure>
+                        <img ng-src="{{ item.stepPic }}" class="src" />
+                        <figcaption>
+                            <p>
+                                <span class="number_number">{{ $index+1 }}、</span>{{ item.stepState }}
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div class="sufee">
+            <p>小贴士:</p>
+            {{ currentMenu.menuTips }}
+        </div>
+        <div class="eval">
+            <span>作品:</span>
+            <div class="your_picture">
+                点击上传你的照片
+            </div>
+        </div>
+        <div class="last">
+            <b>评价</b>
+            <p><span>{{ currentMenu.menuCommentNum }}</span>条评价</p>
+        </div>
+
+
+    </div>
+</div>
