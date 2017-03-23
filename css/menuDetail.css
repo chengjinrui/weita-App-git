@@ -1,8 +1,6 @@
 
 .pices{
-
 	/*width: 9.090278rem;*/
-
 	margin-left: 0.277778rem;
 	margin-top: 0.277778rem;
 }
@@ -14,19 +12,31 @@
 	border:0.013889rem solid #ededed;
 	box-shadow: 0.069444rem 0.069444rem 0.069444rem #ededed;
 }
+.content-right{
+	padding-left: .47rem;
+	padding-right: .47rem;
+	padding-top: .24rem;
+	width: 4.87rem;
+}
+.content-right1{
+	width: 4.07rem;
+}
 .content-right1 h2{
-	text-indent: 0.208333rem;
+	font-size: .4rem;
+	font-weight: normal;
+	margin-bottom: .83rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .content-right1 p{
-	height: 1.111111rem;
-	line-height: 1.111111rem;
-	font-size: 0.347222rem;
-	text-indent: 0.208333rem;
+	height: .4rem;
+	line-height: .4rem;
+	font-size: .32rem;
+	margin-bottom: .93rem;
 }
 .content-right2 ul{
 	display: flex;
-	margin-left: 0.208333rem;
-	margin-top: 1.388889rem;
 }
 .content-right2 ul li{
 	color: #999999;

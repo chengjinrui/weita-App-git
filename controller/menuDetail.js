@@ -17,6 +17,7 @@ angular.module('myApp')
 
     }])
 
+    // pieces 模板
     .directive('picesOfMenu', [function() {
         return {
             replace: true,
@@ -28,7 +29,7 @@ angular.module('myApp')
                         <div class="content-right">
                             <div class="content-right1">
                                 <h2>{{ item.menuTitle }}</h2>
-                                <p>低筋面粉，蓝莓，无盐黄油</p>
+                                <p>{{ item.menuMaterial }}</p>
                             </div>
                             <div class="content-right2">
                                 <ul>
