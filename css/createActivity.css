@@ -31,7 +31,11 @@
     text-align: right;
 }
 .activity_header li:last-child img{
-    width: .49rem;
-    height: .56rem;
+    width: 0.430556rem;
+	height: 0.361111rem;
     vertical-align: middle;
+}
+.activity_header li:last-child{
+	color: #e8764d;
+	font-size:0.347222rem ;
 }

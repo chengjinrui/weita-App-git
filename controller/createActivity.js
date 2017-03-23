@@ -6,9 +6,11 @@ angular.module('myApp')
             document.querySelector('.footer').style.bottom = "0";
         }
         $scope.flag = true;
-        $scope.tabLine = function () {
+        tabLine = function (e) {
             $scope.flag = !$scope.flag;
-            console.log($scope.flag);
-            $scope.flag?$state.go('createActivity.createOnlineAc'):$state.go('createActivity.createOfflineAc');
+            // console.log($scope.flag);
+            // console.log(e);
+            $scope.flag?$state.go('createActivity.createOnlineAc'):$state.go('createActivity.createOfflineAc')
+        	$scope.flag?e.innerHTML='线上<img src="../images/activity/sj.jpg">':e.innerHTML='线下<img src="../images/activity/sj.jpg">';
         }
     }])

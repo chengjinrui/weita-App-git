@@ -15,6 +15,12 @@ angular.module('myApp')
     .service('menuDetailService', ['$http', function ($http) {
         return $http.get('http://localhost:8888/data/allMenu_showHome.json')
     }])
+// classify 拿数据
+    .service('classifyService', ['$http', function ($http) {
+        return $http.get('http://localhost:8888/data/classify.json')
+    }])
+
+
 // 测试拿数据
     .service('testService', [ '$http', function($http){
         return $http.get('http://proxy.e12e.com/?http://wap.chufang001.com/wapdata/homepage.asp')

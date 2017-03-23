@@ -1,0 +1,127 @@
+header{
+	box-shadow: 0 0.104167rem 0.104167rem #cdcdcd;
+	position: relative;
+	background-color: #fafafa;
+}
+header p:first-child {
+	position: absolute;
+	top: 0.173611rem;
+	left: 0.416667rem;
+}
+header p:first-child a{
+	font-size: 0.625rem;
+}
+header p:nth-child(2){
+	height: 1.375rem;
+	line-height: 1.375rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.486111rem;
+	color: #666666;
+	
+}
+header p:nth-child(3){	
+	position: absolute;
+	top: 0.347222rem;
+	right: 0.3125rem;
+}
+header p:nth-child(3) img{	
+	width: 0.430556rem;
+	height: 0.361111rem;
+
+	
+}
+header p:last-child a{	
+	color: #ed6f48;
+	font-size: 0.486111rem;
+}
+/* -----------------------------------------------------*/
+.top input{
+	width: 100%;
+	height: 1.1875rem;
+	margin-top: 0.569444rem;
+	border-left: none;
+	border-right: none;
+	border-top: 0.013889rem solid #cccccc;
+	border-bottom: 0.013889rem solid #cccccc;
+	text-indent: 0.3125rem;
+	font-size: 0.416667rem;
+	outline: none;
+	
+}
+.middle input{
+	width: 100%;
+	height: 2.298611rem;
+	margin-top: 0.569444rem;
+	border-left: none;
+	border-right: none;
+	border-top: 0.013889rem solid #cccccc;
+	border-bottom: 0.013889rem solid #cccccc;
+	text-indent: 0.3125rem;
+	font-size: 0.416667rem;
+	outline: none;
+}
+
+
+.bottom li{
+	margin: 0.277778rem 0 0.347222rem 0.3125rem;
+}
+
+
+.bottom li:nth-of-type(2){
+	font-size: 0.416667rem;
+}
+.bottom li:nth-of-type(2) span{
+	color: #999999;
+	font-size: 0.457222rem;
+}
+.bottom li:nth-of-type(3) input{
+	width: 1.138889rem;
+	height: 1.138889rem;
+	border-radius: 0.208333rem;
+	border: 0.013889rem solid #e5e5e5;
+	outline: none;
+}
+.bottom li:nth-of-type(4) input{
+	width: 1.138889rem;
+	height: 1.138889rem;
+	border-radius: 0.208333rem;
+	border: 0.013889rem solid #e5e5e5;
+	outline: none;
+}
+.bottom li:nth-of-type(5) p{
+	margin-top:0.208333rem ;
+}
+.bottom li:nth-of-type(5) p:first-child{
+	font-size: 0.416667rem;
+}
+.bottom li:nth-of-type(5) p:last-child input{
+	font-size: 0.416667rem;
+	text-indent: 0.3125rem;
+	height: 1.131944rem;
+	border-radius: 0.208333rem;
+	outline: none;
+	border: 0.013889rem solid #e5e5e5;
+	width: 9.375rem;
+}
+.bottom li:nth-of-type(5) p select{
+	width: 2.958333rem;
+	height: 1.131944rem;
+	border-radius:0.208333rem; 
+	margin-right: 0.173611rem;
+	outline:none;
+	font-size: 0.416667rem;
+	border: 0.013889rem solid #e5e5e5;
+}
+
+.bottom li:nth-of-type(6) input{
+	width: 2.402778rem;
+	text-align: center;
+	height: 1.083333rem;
+	background-color: #e8764d;
+	color: white;
+	border: 0.006944rem solid #e8764d;
+	margin-left: 7rem;
+	border-radius: 0.138889rem;
+	margin-top: 0.347222rem;
+}
