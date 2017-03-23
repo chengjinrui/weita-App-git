@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="../css/onLine.css">
 <div class="onLine">
-    <section class="showActivities" ng-repeat="item in onLineDate">
+    <section class="showActivities" ng-repeat="item in onLineDate" ng-click="showHowToJoin({ activeId:item.activeId })">
         <div class="hedline">
             <p>{{ item.title }}</p>
         </div>

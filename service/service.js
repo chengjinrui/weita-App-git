@@ -19,9 +19,3 @@ angular.module('myApp')
     .service('classifyService', ['$http', function ($http) {
         return $http.get('http://localhost:8888/data/classify.json')
     }])
-
-
-// 测试拿数据
-    .service('testService', [ '$http', function($http){
-        return $http.get('http://proxy.e12e.com/?http://wap.chufang001.com/wapdata/homepage.asp')
-    }])

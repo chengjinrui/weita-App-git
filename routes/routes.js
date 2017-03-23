@@ -75,6 +75,12 @@ angular.module('myApp', ['ui.router'])
             url: '/createOfflineAc',
             templateUrl: '/view/createOfflineAc.html'
         })
+        // 展示活动详情 如何参加到这个活动
+        .state('showHowToJoin', {
+            url: '/showHowToJoin:activeId',
+            templateUrl: '/view/showHowToJoin.html',
+            controller: 'showHowToJoinCtrl'
+        })
 
 
         // 分类
