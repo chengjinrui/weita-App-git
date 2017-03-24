@@ -30,3 +30,10 @@ angular.module('myApp')
         }
 
     }])
+
+
+    .filter('textWrapFilter', [ function () {
+        return function (str) {
+            return str.split('<br />')
+        }
+    }])

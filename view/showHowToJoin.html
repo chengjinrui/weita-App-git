@@ -4,7 +4,7 @@
 <div class="showHoToJoin">
     <header>
         <p>
-            <a href="">&lt;</a>
+            <a ui-sref="activity"><img src="../images/basket/02.png"></a>
         </p>
         <p>{{ currentActivity.title }}</p>
     </header>
@@ -12,7 +12,7 @@
         <div class="product">
             <h2>{{ currentActivity.title }}</h2>
             <ul>
-                <li><img ng-src="{{ currentActivity.toppic }}"></li>
+                <li class="toppic"><img ng-src="{{ currentActivity.toppic }}"></li>
                 <li>
                     <p>参加人数：{{ currentActivity.alljoin }}人</p>
                     <p>时间：{{ currentActivity.startdate | dataFilter }}-{{ currentActivity.enddate | dataFilter }}</p>
@@ -25,9 +25,7 @@
                 <li></li>
                 <li>简介</li>
             </ul>
-            <p>{{ currentActivity.activecontent }}</p>
-            <p></p>
-
+            <p ng-repeat=" item in (currentActivity.activecontent | textWrapFilter ) ">{{ item }}</p>
         </div>
         <div class="picture">
             <ul>
@@ -35,7 +33,9 @@
                 <li>图片</li>
                 <li><a href="">更多 &gt;&gt;</a></li>
             </ul>
-            <img src="img/gray.jpg" />
+            <img ng-src="../images/activity/gray.jpg" />
+            <img ng-src="{{ currentActivity.pics[0].pic }}">
+            <img ng-src="{{ currentActivity.pics[1].pic }}">
         </div>
         <div class="explain">
             <ul>

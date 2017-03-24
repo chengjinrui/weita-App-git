@@ -3,6 +3,11 @@ header{
 	position: relative;
 	background-color: #fafafa;
 }
+header p img{
+	width: .27rem;
+	height: .51rem;
+	vertical-align: bottom;
+}
 header p:first-child {
 	position: absolute;
 	top: 0.173611rem;
@@ -14,34 +19,26 @@ header p:first-child a{
 header p:nth-child(2){
 	height: 1.375rem;
 	line-height: 1.375rem;
-	width: 100%;
+	width: 4.4rem;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 0.486111rem;
-	color: #666666;
+	color: #070707;
 
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
-header p:nth-child(3){
-	position: absolute;
-	top: 0.347222rem;
-	right: 0.3125rem;
-}
-header p:nth-child(3) img{
-	width: 0.430556rem;
-	height: 0.361111rem;
 
-
-}
-header p:last-child a{
-	color: #ed6f48;
-	font-size: 0.486111rem;
-}
 /*----------------------------------------------------------*/
 .product,.brief,.picture,.explain{
 	margin-left: 0.277778rem;
 }
+
 .product h2{
 	height: 1.25rem;
 	line-height: 1.25rem;
+	font-weight: normal;
 }
 .product ul{
 	display: flex;
@@ -52,12 +49,17 @@ header p:last-child a{
 	line-height: 0.833333rem;
 	font-size: 0.347222rem;
 }
+.product ul li:last-child p{
+	line-height: .48rem;
+	margin: .13rem 0 .13rem .13rem;
+	color: #676767;
+}
 .product ul li:last-child p:last-child a{
 	color: #e7764d;
 }
 .product ul li img{
-	width: 2.5rem;
-	height: 4.0rem;
+	width: 1.25rem;
+	height: 1.88rem;
 }
 /*-------------------------------------------------------*/
 .brief ul{
@@ -112,6 +114,7 @@ header p:last-child a{
 	width: 3.034722rem;
 	height: 3.034722rem;
 }
+
 /*============================================*/
 .explain ul{
 	display: flex;
