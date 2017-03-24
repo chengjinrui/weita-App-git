@@ -1,6 +1,96 @@
 {
     "result": "succ",
-    "data": [{
+    "data": [
+        {
+    "menuName": "黑芝麻双色馒头",
+    "menuPic": "http://www.chufang001.com/userimg/127850/cp/1490064252cp.jpg",
+    "menuAuthorName": "Q猪宝宝",
+    "menuAuthorIcon": "http://www.chufang001.com/userimg/127850/head.jpg?update=1473209149",
+    "menuAuthorId": "89df736a804c3a4461b4aca6354adfe3",
+    "menuDate": 1490064253,
+    "menuState": "黑芝麻具有保健功效，能补肝肾、滋五脏、益精血、润肠燥等，被视为滋补圣品。一方面是因为它含有优质蛋白质和丰富的矿物质，另一方面是因为它含有丰富的不饱和脂肪酸、维生素E和珍贵的芝麻素及黑色素。黑芝麻打粉后，制作蛋糕、面包，还有面点都是不错的。",
+    "menuPeopleNum": "5",
+    "menuTips": "1、如果黑芝麻粉换成可可粉，5克即可。如果想要做其他颜色，将牛奶换成等量的果蔬汁即可。\n2、面团光滑，蒸出来的馒头表面才光滑，用压面机压面可以多重复压几次。\n3、蒸馒头蒸包子，我喜欢冷水上锅。这样在加热的过程中，包子可以慢慢适应温度变化，慢慢变大。蒸好后先焖以后，再开盖，尽量减少温差引起的馒头塌陷。",
+    "menuCookerName": "煎锅",
+    "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172339840.png",
+    "menuApplianceName": "",
+    "menuAppliance": "",
+    "menuCommentNum": 1,
+    "menuTimer": 0,
+    "isCollect": "",
+    "isPraies": "",
+    "menuMaterial": [
+      {
+        "materialName": "黑芝麻粉",
+        "materialWeight": "20克"
+      },
+      {
+        "materialName": "牛奶",
+        "materialWeight": "130克"
+      },
+      {
+        "materialName": "小麦面粉",
+        "materialWeight": "250克"
+      },
+      {
+        "materialName": "细砂糖",
+        "materialWeight": "24克"
+      },
+      {
+        "materialName": "酵母",
+        "materialWeight": "2克"
+      }
+    ],
+    "menuStep": [
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step0.jpg",
+        "stepState": "准备食材。黑芝麻面团原料：黑芝麻粉10克，小麦面粉125克，细砂糖12克，牛奶65克，酵母1克。原味面团原料省去10克黑芝麻粉即是。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step1.jpg",
+        "stepState": "将两种面团原料分别揉合，放入面包机发酵至两倍大。大概1.5个小时。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step2.jpg",
+        "stepState": "取出，排气，揉光滑。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step3.jpg",
+        "stepState": "借助压面机压出两片等大的光滑面片。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step4.jpg",
+        "stepState": "原味面片刷上一层水，将黑芝麻面片叠放在上面，然后刷上一层水，切去不规则的边沿，将面片分成两等分。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step5.jpg",
+        "stepState": "紧紧卷起后，分成等大的小份。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step6.jpg",
+        "stepState": "蒸锅放入清水，加热几分钟至水温温的状态。然后将馒头胚放入涂过油的蒸笼中，醒40分钟左右。",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step7.jpg",
+        "stepState": "开大火并一直保持，从开始到结束一共蒸20分钟。<br />",
+        "stepTime": ""
+      },
+      {
+        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step8.jpg",
+        "stepState": "熄火后3分钟再开盖，松软的馒头就做好了。<br />",
+        "stepTime": ""
+      }
+    ],
+    "menuWorks": []
+},
+        {
             "menuName": "蒜苔炒腊肉",
             "menuPic": "http://www.chufang001.com/userimg/157573/cp/1489032095cp.jpg",
             "menuAuthorName": "流水叮叮的夏天",

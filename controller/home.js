@@ -1,9 +1,10 @@
 // 注意看   angular.module('myApp') 括号里面没有第二个参数了 不然要GG
 angular.module('myApp')
-    .controller('homeCtrl', ['$scope', 'myService', '$state', function($scope, myService, $state){
+    .controller('homeCtrl', ['$scope', 'menuStepService', '$state', function($scope, menuStepService, $state){
         $scope.name = '味他!HOME';
-        myService.then(function(response){
-            $scope.data = response.data.data.hotMenu;
+        menuStepService.then(function(response){
+            $scope.data = response.data.data;
+            console.log(response.data.data);
         },function(response){
             console.log(response);
         })
@@ -28,12 +29,7 @@ angular.module('myApp')
         $scope.skipShowPic = function () {
             $state.go('skipShowPic');
         }
-
-
-//  这里有问题 要确定一下数据 数据不对
         $scope.showHowToDo = function (str) {
-            console.log(str);
+            $state.go('showHowToDo', str);
         }
-
-
     }])

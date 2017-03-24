@@ -220,8 +220,9 @@ ol li span:last-child{
 .sufee{
 	margin: 0.48rem 0 0 0;
 	width: 8.733333rem;
-	height: 3.466667rem;
 	border-top: 0.013333rem solid #efefef;
+	margin-bottom: .4rem;
+	color: #9d9d9d;
 }
 .sufee p{
 	font-size: 0.4rem;

@@ -53,8 +53,8 @@
     <section ng-repeat="item in data" class="hotMenu" ng-click="showHowToDo({ menuName:item.menuName });">
         <div class="firstLine">
             <p class="left">
-                <span class="userIcon"><img ng-src="{{ item.userIcon }}"></span>
-                <span class="menuTitle">{{ item.menuTitle }}</span>
+                <span class="userIcon"><img ng-src="{{ item.menuAuthorIcon }}"></span>
+                <span class="menuTitle">{{ item.menuAuthorName }}</span>
             </p>
             <p class="right">116人次浏览</p>
         </div>
