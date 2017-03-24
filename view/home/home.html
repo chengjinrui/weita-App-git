@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="./css/home/home.css">
+<link rel="stylesheet" href="./css/swiper-3.3.1.min.css">
+
+<div class="home">
+
+    <header>
+        <a ui-sref="basket"><img src="../images/home/01.png"></a>
+        <input type="text" placeholder="搜索菜谱, 食材, 知食...">
+    </header>
+
+    <nav class="topNav">
+        <ul>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'家常菜' })"><img src="../images/home/03.png"></a>
+                <a ui-sref="menuDetail({ materialName:'家常菜' })">家常菜</a></li>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'烘焙' })"><img src="../images/home/04.png"></a>
+                <a ui-sref="menuDetail({ materialName:'烘焙' })">烘焙</a></li>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'素食' })"><img src="../images/home/05.png"></a>
+                <a ui-sref="menuDetail({ materialName:'素食' })">素食</a></li>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'饮品' })"><img src="../images/home/06.png"></a>
+                <a ui-sref="menuDetail({ materialName:'饮品' })">饮品</a></li>
+            <li>
+                <a ui-sref="classify"><img src="../images/home/07.png"></a><a href="#">更多</a></li>
+        </ul>
+    </nav>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img style="width:100%;height:1.88rem" src="../images/home/08.png"></div>
+            <div class="swiper-slide"><img style="width:100%;height:1.88rem" src="../images/home/09.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <nav class="underNav">
+        <ul>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'早餐' })"><img src="../images/home/10.png"></a>
+                <a ui-sref="menuDetail({ materialName:'早餐' })">早餐</a></li>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'午餐' })"><img src="../images/home/11.png"></a>
+                <a ui-sref="menuDetail({ materialName:'早餐' })">午餐</a></li>
+            <li>
+                <a ui-sref="menuDetail({ materialName:'晚餐' })"><img src="../images/home/12.png"></a>
+                <a ui-sref="menuDetail({ materialName:'早餐' })">晚餐</a></li>
+        </ul>
+    </nav>
+
+<!-- 这里遗留问题 -->
+    <section ng-repeat="item in data" class="hotMenu" ng-click="showHowToDo({ menuName:item.menuName });">
+        <div class="firstLine">
+            <p class="left">
+                <span class="userIcon"><img ng-src="{{ item.userIcon }}"></span>
+                <span class="menuTitle">{{ item.menuTitle }}</span>
+            </p>
+            <p class="right">116人次浏览</p>
+        </div>
+        <img ng-src="{{ item.menuPic }}" class="imgMain">
+    </section>
+
+
+    <img src="../images/home/13.png" class="leftTopMenu" ng-click="skipUpload();">
+    <img src="../images/home/14.png" class="leftBottomMenu" ng-click="skipShowPic();">
+    <img src="../images/home/16.png" class="leftMenu_main" ng-click="showTwoMenu();">
+
+
+</div>

@@ -1,0 +1,265 @@
+header{
+	box-shadow: 0 0.104167rem 0.104167rem #cdcdcd;
+	position: relative;
+	background-color: #fafafa;
+}
+header p:first-child {
+	position: absolute;
+	top: 0.173611rem;
+	left: 0.416667rem;
+}
+header p:first-child a{
+	font-size: 0.625rem;
+}
+header p:nth-child(2){
+	height: 1.375rem;
+	line-height: 1.375rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.486111rem;
+	color: #666666;
+
+}
+
+/*=================================================*/
+.upload{
+	width: 100%;
+	height: 4.513889rem;
+	background-color: #f0efed;
+}
+.upload p{
+	font-size: 0.486111rem;
+	height: 4.513889rem;
+	line-height: 4.513889rem;
+	text-align: center;
+}
+.upload img{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+/*==================================================*/
+.main{
+	margin-top: 0.277778rem;
+	margin-left: 0.277778rem;
+	width: 9.444444rem;
+}
+.menuName{
+	border-bottom: 0.027778rem solid #cccccc;
+	width: 9.444444rem;
+	height: 0.763889rem;
+}
+ul{
+	display: flex;
+}
+.menuName ul li img,.brief ul li img,.material ul li img,.tool ul li img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+
+.menuName li:last-child,.brief li:last-child,.material li:last-child,.tool li:last-child{
+	font-size: 0.347222rem;
+	margin-left: 0.208333rem;
+}
+/*==============================================*/
+.brief{
+	height: 1.111111rem;
+	line-height: 1.111111rem;
+	border-bottom: 0.027778rem solid #cccccc;
+	width: 9.444444rem;
+}
+.brief ul li img,.material ul li img,.tool ul li img{
+	margin-top: 0.277778rem
+}
+/*======================================================*/
+.fitPeople{
+	height: 1.486111rem;
+	border-bottom: 0.027778rem solid #cccccc;
+}
+.fitPeople ul{
+	margin-top: 0.277778rem;
+	margin-left: 0.555556rem;
+}
+.fitPeople ul li img{
+	margin-left: 0.208333rem;
+	margin-right: 0.138889rem;
+}
+.fitPeople ul li:first-child{
+	height: 0.951389rem;
+	line-height: 0.951389rem;
+	font-size: 0.347222rem;
+}
+.fitPeople ul li:nth-child(2) img{
+	width: 0.673611rem;
+	height: 0.951389rem;
+
+}
+.fitPeople ul li:last-child img{
+	width: 0.805556rem;
+	height: 0.944444rem;
+}
+/*==============================================*/
+.material{
+	height: 1.111111rem;
+	line-height: 1.111111rem;
+	border-bottom: 0.027778rem solid #cccccc;
+	width: 9.444444rem;
+}
+/*==================================================*/
+.tool{
+	border-bottom: 0.027778rem solid #cccccc;
+}
+.tool li:last-child{
+	margin-top: 0.243056rem;
+}
+.tool figure{
+	display: flex;
+	margin-left: 0.416667rem;
+}
+.tool figure figcaption{
+	font-size: 0.347222rem;
+	color:#666666;
+	width: 3.833333rem;
+	text-align: center;
+	height: 0.743056rem;
+	line-height: 0.743056rem;
+	background-color: #f0efed;
+	border-radius: 0.208333rem;
+	margin-top: 0.555556rem;
+	margin-bottom: 0.347222rem
+}
+.tool figure figcaption:last-child{
+	margin-left: 0.895833rem;
+}
+/*===================================================*/
+.step{
+	height: 1.388889rem;
+	line-height: 1.388889rem;
+	border: ;
+}
+.step h2{
+	text-indent: 0.277778rem;
+	border-bottom: 0.013889rem solid #cccccc;
+}
+.step1{
+	display: flex;
+	border-bottom: 0.013889rem solid #cccccc;
+}
+.step-left img{
+	width: 0.5rem;
+	height: 0.5rem;
+}
+.step-left ul{
+	margin-top: 1.666667rem;
+	margin-left: 0.347222rem;
+}
+.step-left ul li{
+	font-size: 0.347222rem;
+}
+.step-right{
+	width: 4.722222rem;
+	text-align: center;
+	height: 3.381944rem;
+	line-height: 3.381944rem;
+	background-color: #f0efed;
+	margin-left: 3.194444rem;
+	margin-top: 0.277778rem;
+	margin-bottom: 0.277778rem;
+}
+.step-left ul,.step-right ul{
+	display: flex;
+}
+.step-right img{
+	width: 0.75rem;
+	height: 0.75rem;
+	margin-top: 1.25rem;
+	margin-left: 1.041667rem;
+}
+.step-right ul li{
+	font-size: 0.347222rem;
+	letter-spacing: 0.034722rem;
+	text-indent: 0.034722rem;
+}
+/*==========================================================*/
+.add-step1{
+	width: 3.125rem;
+	text-align: center;
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	border-radius: 0.416667rem;
+	background-color: #f09623;
+	color: white;
+	margin-top: 0.277778rem;
+	margin-left: 0.381944rem;
+	margin-bottom: 0.277778rem;
+}
+.add-step1 img{
+	width: 0.256944rem;
+	height: 0.256944rem;
+	margin-left: 0.694444rem;
+}
+.add-step figure{
+	display: flex;
+	margin-left: 0.416667rem;
+}
+.add-step figure figcaption{
+	font-size: 0.347222rem;
+	color:#666666;
+	width: 3.833333rem;
+	text-align: center;
+	height: 0.743056rem;
+	line-height: 0.743056rem;
+	background-color: #f0efed;
+	border-radius: 0.208333rem;
+	margin-top: 0.555556rem;
+	margin-bottom: 0.347222rem;
+
+}
+.add-step figure figcaption:last-child{
+	margin-left: 0.895833rem;
+}
+
+
+/*===========================================================================*/
+.tips{
+	width: 9.423611rem;
+	height: 1.111111rem;
+	line-height: 1.111111rem;
+	border-bottom: 0.013889rem solid #cccccc;
+	border-top: 0.013889rem solid #cccccc;
+	font-size: 0.347222rem;
+	margin-left: 0.347222rem;
+}
+.tips img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-top: 0.277778rem;
+}
+/*==============================================================*/
+.time{
+	height: 1.083333rem;
+	line-height: 1.083333rem;
+	margin-left: 0.277778rem;
+}
+.saveFood,.issueFood,.deFood{
+	width: 9.416667rem;
+	text-align: center;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	border-radius: 0.138889rem;
+	margin-top: 0.3125rem;
+	margin-left: 0.277778rem;
+	font-size: 0.347222rem;
+}
+.saveFood{
+	background-color: #ed6f48;
+	color: white;
+}
+.issueFood{
+	background-color: #f09623;
+	color: white;
+}
+.deFood{
+	background-color: #f0efed;
+	color: #666666;
+	margin-bottom: 0.347222rem;
+}

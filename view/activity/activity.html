@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="./css/activity/activity.css">
+<div class="activity">
+    <div class="commonHeader">{{ name }}</div>
+    <div class="tabMenu">
+        <a ui-sref="activity.onLine" ng-click="tab_passHash('onLine');" ng-class="{ true:'tabClass1', false:'tabClass2' }[tabFlag]">线上活动</a>
+        <a ui-sref="activity.offLine" ng-click="tab_passHash('offLine');" ng-class="{ false:'tabClass1', true:'tabClass2' }[tabFlag]">线下活动</a>
+    </div>
+    <div class="ui-view"></div>
+</div>

@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="./css/news/news.css">
+<div class="news">
+    <div class="commonHeader">{{ name }}</div>
+    <div class="action clear" ng-repeat="item in data" ng-click="showHowToDo({ menuName:item.menuName });">
+        <figure class="figure_top clear">
+            <img ng-src="{{ item.menuAuthorIcon }}" class="pic1" />
+            <figcaption>
+                <p>
+                    {{ item.menuAuthorName }}发布了菜谱 <a class="foot_name" ng-click="showDetail()">「 {{ item.menuName }} 」</a>
+                </p>
+                <ul>
+                    <li><img src="../images/news/eag.jpg"><span>44</span>人浏览</li>
+                    <li>{{ item.menuDate | timeStampTurnFilter | limitTo: 10 }}</li>
+                </ul>
+            </figcaption>
+        </figure>
+        <figure class="figure_bottom clear clear">
+            <img ng-src="{{ item.menuPic }}" class="pic2" />
+            <figcaption>
+                    <p>{{ item.menuState }}</p>
+            </figcaption>
+        </figure>
+        <div class="activity clear">
+            <ul>
+                <li><span>{{ item.menuPeopleNum }}</span>人已做过</li>
+                <li><img src="../images/news/star.jpg" /> <span>{{ item.isCollect }}</span></li>
+                <li><img src="../images/news/lover.jpg" /> <span>{{ item.isPraies }}</span></li>
+                <li><img src="../images/news/pipe.jpg" /> <span>{{ item.menuCommentNum }}</span></li>
+            </ul>
+        </div>
+    </div>
+</div>

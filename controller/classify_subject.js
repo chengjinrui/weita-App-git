@@ -1,18 +1,16 @@
-
 angular.module('myApp')
-    .controller('classifySubCtrl', ['$scope', 'classifyService', function ($scope,classifyService) {
+    .controller('classifySubCtrl', ['$scope', 'classifyService', function($scope, classifyService) {
         // 服务获取数据
-        classifyService.then(function (response) {
+        classifyService.then(function(response) {
             $scope.data = response.data.data.theme;
-            // console.log(response.data.data.theme);
-        }, function (response) {
+        }, function(response) {
             console.log(response);
         })
 
         // 动态添加背景图片 最后6个动态添加img
-        $(function () {
+        $(function() {
             let item_as = $('.classify_content a')
-            for(let i = 0; i < item_as.length; i++){
+            for (let i = 0; i < item_as.length; i++) {
                 $(item_as[i]).css({
                     background: `url('../images/classify/${ i+2 }.png') no-repeat .69rem center`,
                     backgroundSize: '1.13rem 1.13rem'
@@ -20,9 +18,9 @@ angular.module('myApp')
                 if (i >= 12) {
                     $(`<img src="../images/classify/20.png">`).appendTo(item_as[i])
                     let $oContainer = $(`<div class="oContainer"><div>`);
-                    $scope.data.forEach(function (item) {
+                    $scope.data.forEach(function(item) {
                         if (item.classifyName == $(item_as[i]).children()[0].innerHTML) {
-                            item.classifyList.forEach(function (item) {
+                            item.classifyList.forEach(function(item) {
                                 $(`
                                     <section><a href="#">${item.name}</a></section>
                                 `).appendTo($oContainer);
@@ -30,14 +28,19 @@ angular.module('myApp')
                         }
                     })
                     $oContainer.insertAfter($(item_as[i]).parent());
+                    $oContainer.addClass('oConHide');
                 }
             }
         })
 
-        // $scope.show_NextContent = function (index) {
-        //     var $oContainers = $('.oContainer');
-        //     $oContainers.css({display:'none'});
-        //     $oContainers[index-1].style.display = 'block'
-        // }
-
+        $scope.show_NextContent = function (str) {
+            var $lis = $('.classify_content li');
+            for(let i=12; i <= 17; i++){
+                if (str == i) {
+                    continue;
+                }
+                $($lis[i]).next().addClass('oConHide');
+            }
+            $($lis[str]).next().toggleClass('oConHide');
+        }
     }])

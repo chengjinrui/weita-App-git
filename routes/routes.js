@@ -9,103 +9,129 @@ angular.module('myApp', ['ui.router'])
         .when('/classify', '/classify/subject')
 
         $stateProvider
+        // 主页 home
         .state('home', {
             url: '/home',
-            templateUrl: '/view/home.html',
+            templateUrl: '/view/home/home.html',
             controller: 'homeCtrl'
         })
-        .state('information', {
-            url: '/information',
-            templateUrl: '/view/information.html',
-            controller: 'informationCtrl'
+        .state('skipUpload', {
+            url: '/skipUpload',
+            templateUrl: '/view/home/skipUpload.html',
         })
-        .state('news', {
-            url: '/news',
-            templateUrl: '/view/news.html',
-            controller: 'newsCtrl'
+        .state('skipShowPic', {
+            url: '/skipShowPic',
+            templateUrl: '/view/home/skipShowPic.html',
         })
-        .state('activity', {
-            url: '/activity',
-            templateUrl: '/view/activity.html',
-            controller: 'activityCtrl'
-        })
-        .state('activity.onLine', {
-            url: '/onLine',
-            templateUrl: '/view/onLine.html',
-            controller: 'onLineCtrl'
-        })
-        .state('activity.offLine', {
-            url: '/offLine',
-            templateUrl: '/view/offLine.html',
-            controller: 'offLineCtrl'
-        })
-        .state('mine', {
-            url: '/mine',
-            templateUrl: '/view/mine.html',
-            controller: 'mineCtrl'
-        })
+            // 主页 菜篮子
         .state('basket', {
             url: '/basket',
-            templateUrl: '/view/basket.html',
+            templateUrl: '/view/home/basket.html',
             controller: 'basketCtrl'
         })
         .state('basket.defaultBasket', {
             url: '/defaultBasket',
-            templateUrl: '/view/defaultBasket.html',
+            templateUrl: '/view/home/defaultBasket.html',
         })
+            // 主页 七个分菜单点进去
         .state('menuDetail', {
             url: '/menuDetail:materialName',
-            templateUrl: '/view/menuDetail.html',
+            templateUrl: '/view/home/menuDetail.html',
             controller: 'menuDetailCtrl'
         })
 
-        // 创建活动
-        .state('createActivity', {
-            url: '/createActivity',
-            templateUrl: '/view/createActivity.html',
-            controller: 'createActivityCtrl'
-        })
-        // 线上
-        .state('createActivity.createOnlineAc', {
-            url: '/createOnlineAc',
-            templateUrl: '/view/createOnlineAc.html'
-        })
-        // 线下
-        .state('createActivity.createOfflineAc', {
-            url: '/createOfflineAc',
-            templateUrl: '/view/createOfflineAc.html'
-        })
-        // 展示活动详情 如何参加到这个活动
-        .state('showHowToJoin', {
-            url: '/showHowToJoin:activeId',
-            templateUrl: '/view/showHowToJoin.html',
-            controller: 'showHowToJoinCtrl'
-        })
-
-
-        // 分类
+            // 主页更多
         .state('classify', {
             url: '/classify',
-            templateUrl: '/view/classify.html',
+            templateUrl: '/view/home/classify.html',
             controller: 'classifyCtrl'
         })
-        // 专题分类
+                // 专题分类
         .state('classify.subject', {
             url: '/subject',
-            templateUrl: '/view/classify_subject.html',
+            templateUrl: '/view/home/classify_subject.html',
             controller: 'classifySubCtrl'
         })
-        // 食材分类
+                // 食材分类
         .state('classify.material', {
             url: '/material',
-            templateUrl: '/view/classify_material.html',
+            templateUrl: '/view/home/classify_material.html',
             controller: 'classifyMatCtrl'
         })
 
+
+        // 消息 information
+        .state('information', {
+            url: '/information',
+            templateUrl: '/view/information/information.html',
+            controller: 'informationCtrl'
+        })
+
+        // 动态 news
+        .state('news', {
+            url: '/news',
+            templateUrl: '/view/news/news.html',
+            controller: 'newsCtrl'
+        })
+
+        // 活动activity
+        .state('activity', {
+            url: '/activity',
+            templateUrl: '/view/activity/activity.html',
+            controller: 'activityCtrl'
+        })
+        .state('activity.onLine', {
+            url: '/onLine',
+            templateUrl: '/view/activity/onLine.html',
+            controller: 'onLineCtrl'
+        })
+        .state('activity.offLine', {
+            url: '/offLine',
+            templateUrl: '/view/activity/offLine.html',
+            controller: 'offLineCtrl'
+        })
+            // 创建活动
+        .state('createActivity', {
+            url: '/createActivity',
+            templateUrl: '/view/activity/createActivity.html',
+            controller: 'createActivityCtrl'
+        })
+            // 线上
+        .state('createActivity.createOnlineAc', {
+            url: '/createOnlineAc',
+            templateUrl: '/view/activity/createOnlineAc.html'
+        })
+            // 展示活动详情 如何参加到这个活动 属于线上活动的板块
+        .state('showHowToJoin', {
+            url: '/showHowToJoin:activeId',
+            templateUrl: '/view/activity/showHowToJoin.html',
+            controller: 'showHowToJoinCtrl'
+        })
+            // 线下
+        .state('createActivity.createOfflineAc', {
+            url: '/createOfflineAc',
+            templateUrl: '/view/activity/createOfflineAc.html'
+        })
+
+        // 个人 mine
+        .state('mine', {
+            url: '/mine',
+            templateUrl: '/view/mine/mine.html',
+            controller: 'mineCtrl'
+        })
+
+
+
+//
+//
+//
+// 待修正
         // 动态 展示怎么去做的页面
         .state('showHowToDo', {
             url: '/showHowToDo:menuName',
             templateUrl: '/view/showHowToDo.html',
             controller: 'showHowToDoCtrl'
         })
+
+
     }])

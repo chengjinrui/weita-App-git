@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="../css/activity/onLine.css">
+<div class="onLine">
+    <section class="showActivities" ng-repeat="item in onLineDate" ng-click="showHowToJoin({ activeId:item.activeId })">
+        <div class="hedline">
+            <p>{{ item.title }}</p>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <div class="content-left1">
+                    <p>时间 ：<span>{{ item.startdate | dataFilter }}</span>--<span>{{ item.enddate | dataFilter }}</span></p>
+                    <p>类型 ：<span ng-repeat="type in item.tags">{{ type.tag + "," }}</span></p>
+                </div>
+                <div class="content-left2">
+                    <ul>
+                        <li><span>11</span>天后结束</li>
+                        <li><span>{{ item.alllike }}</span>喜欢</li>
+                        <li><span>{{ item.alljoin }}</span>参加</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-right">
+                <img ng-src="{{ item.toppic }}"/>
+            </div>
+        </div>
+    </section>
+</div>
