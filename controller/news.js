@@ -4,7 +4,7 @@ angular.module('myApp')
         $scope.count = 10;
         // 数据
         menuStepService.then(function (response) {
-            console.log(response.data.data);
+            // console.log(response.data.data);
             $scope.data = response.data.data;
         }, function (response) {
             console.log(response);
@@ -13,6 +13,6 @@ angular.module('myApp')
 
         $scope.showHowToDo = function (str) {
             $state.go('showHowToDo', str);
-            console.log(str);
+            // console.log(str);
         }
     }])

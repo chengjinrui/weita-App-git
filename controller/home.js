@@ -5,7 +5,7 @@ angular.module('myApp')
         $scope.name = '味他!HOME';
         menuStepService.then(function(response){
             $scope.data = response.data.data;
-            console.log(response.data.data);
+            // console.log(response.data.data);
         },function(response){
             console.log(response);
         })

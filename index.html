@@ -24,23 +24,23 @@
     <div class="ui-view" id="indexFooter"></div>
 
     <div class="footer" >
-        <section ng-click="changeIconBg('home');">
+        <section ng-click="ctrl.changeIconBg('home',0);">
             <a ui-sref="home"></a>
             <a ui-sref="home">主页</a>
         </section>
-        <section ng-click="changeIconBg('information');">
+        <section ng-click="ctrl.changeIconBg('information',1);">
             <a ui-sref="information"></a>
             <a ui-sref="information">消息</a>
         </section>
-        <section ng-click="changeIconBg('news');">
+        <section ng-click="ctrl.changeIconBg('news',2);">
             <a ui-sref="news"></a>
             <a ui-sref="news">动态</a>
         </section>
-        <section ng-click="changeIconBg('activity');">
+        <section ng-click="ctrl.changeIconBg('activity',3);">
             <a ui-sref="activity"></a>
             <a ui-sref="activity">活动</a>
         </section>
-        <section ng-click="changeIconBg('mine');">
+        <section ng-click="ctrl.changeIconBg('mine',4);">
             <a ui-sref="mine"></a>
             <a ui-sref="mine">个人</a>
         </section>
