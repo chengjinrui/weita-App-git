@@ -1,3 +1,4 @@
+// angular.module('myApp', ['ui.router', 'me-lazyload'])
 angular.module('myApp', ['ui.router'])
     .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 

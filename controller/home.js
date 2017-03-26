@@ -1,10 +1,11 @@
 // 注意看   angular.module('myApp') 括号里面没有第二个参数了 不然要GG
+// 冲突问题 应该在主入口加入 在routes.js中加入
 angular.module('myApp')
     .controller('homeCtrl', ['$scope', 'menuStepService', '$state', function($scope, menuStepService, $state){
         $scope.name = '味他!HOME';
         menuStepService.then(function(response){
             $scope.data = response.data.data;
-            // console.log(response.data.data);
+            console.log(response.data.data);
         },function(response){
             console.log(response);
         })
@@ -33,10 +34,4 @@ angular.module('myApp')
             $state.go('showHowToDo', str);
         }
 
-        $(function(){
-            $('img').lazyload({
-                effect : 'fadeIn',
-                // event : 'click'
-            })
-        })
     }])
