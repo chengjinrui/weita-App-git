@@ -18,9 +18,10 @@ angular.module('myApp')
                                 $('.oBasket').attr('disabled', 'disabled');
                             }
                         })
-                    }else{
-                        console.log("@@@");
                     }
+                    // else{
+                    //     console.log("@@@");
+                    // }
                 }
             })
         }, function(response) {

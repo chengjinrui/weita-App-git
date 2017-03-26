@@ -5,5 +5,5 @@ angular.module('myApp')
         var self = this;
         $timeout(function () {
             $('.bg_banner').css({display:'none'})
-        }, 5000);
+        }, 100);
     }])
