@@ -1,0 +1,40 @@
+
+
+*{
+    box-sizing: border-box;
+}
+.oContent{
+    width: 100%;
+    margin: 0 auto;
+    height: 2.93rem;
+    padding: 0 0 0 .6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .4rem;
+}
+.oContent img{
+    width: .93rem;
+    height: .93rem;
+    border-radius: 100%;
+    margin: .13rem 0 0 .2rem;
+}
+.oContent figcaption{
+    width: 7.67rem;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 .35rem 0 0;
+}
+.oContent figcaption p:nth-of-type(1){
+    margin-top: .73rem;
+    font-size: .33rem;
+    color: #6a6a6a;
+}
+.oContent figcaption p:nth-of-type(2){
+    margin-top: .27rem;
+    color: #b2b2b2;
+}
+h3{
+    width: 100%;
+    text-align: center;
+    color: #5a5a5a;
+    margin-top: .27rem;
+}

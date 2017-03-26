@@ -7,7 +7,7 @@ angular.module('myApp', ['ui.router'])
         .when('/activity', '/activity/onLine')
         .when('/createActivity', '/createActivity/createOnlineAc')
         .when('/classify', '/classify/subject')
-
+        .when('/information', '/information/notice')
         $stateProvider
         // 主页 home
         .state('home', {
@@ -44,6 +44,12 @@ angular.module('myApp', ['ui.router'])
             templateUrl: '/view/home/menuDetail.html',
             controller: 'menuDetailCtrl'
         })
+            // 动态 展示怎么去做的页面
+        .state('showHowToDo', {
+            url: '/showHowToDo:menuName',
+            templateUrl: '/view/home/showHowToDo.html',
+            controller: 'showHowToDoCtrl'
+        })
 
             // 主页更多
         .state('classify', {
@@ -70,6 +76,14 @@ angular.module('myApp', ['ui.router'])
             url: '/information',
             templateUrl: '/view/information/information.html',
             controller: 'informationCtrl'
+        })
+        .state('information.notice', {
+            url: '/notice',
+            templateUrl: '/view/information/notice.html'
+        })
+        .state('information.chat', {
+            url: '/chat',
+            templateUrl: '/view/information/chat.html'
         })
 
         // 动态 news
@@ -124,19 +138,5 @@ angular.module('myApp', ['ui.router'])
             templateUrl: '/view/mine/mine.html',
             controller: 'mineCtrl'
         })
-
-
-
-//
-//
-//
-// 待修正
-        // 动态 展示怎么去做的页面
-        .state('showHowToDo', {
-            url: '/showHowToDo:menuName',
-            templateUrl: '/view/showHowToDo.html',
-            controller: 'showHowToDoCtrl'
-        })
-
 
     }])
