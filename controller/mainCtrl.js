@@ -6,7 +6,7 @@ angular.module('myApp')
             $('.bg_banner').css({
                 display: 'none'
             })
-        }, 100);
+        }, 2000);
 
         // 封装个方法
         let aboutBgSize = function (str) {
@@ -42,22 +42,22 @@ angular.module('myApp')
 
         }
 
-        let $sections = $('.footer section');
-        this.changeIconBg = function(str1, str2) {
-            // console.log(str1);
-            // console.log(str2);
-            // console.log($sections.eq(str2));
-            //
-            // 先让所有的背景都变成01
-            // 再让点击的当前对象的背景变成02
-            //
-            //
-            $sections.eq(str2).css({
-                background: `url('./images/footer/${ str1 }02.png') no-repeat top center`,
-                backgroundSize: `.75rem .64rem`,
-            })
-            aboutBgSize(str2)
-            // console.log(`'${ str1 }02.png'`);
-            // background: url('../images/footer/home02.png') no-repeat top center;
-        }
+        // let $sections = $('.footer section');
+        // this.changeIconBg = function(str1, str2) {
+        //     // console.log(str1);
+        //     // console.log(str2);
+        //     // console.log($sections.eq(str2));
+        //     //
+        //     // 先让所有的背景都变成01
+        //     // 再让点击的当前对象的背景变成02
+        //     //
+        //     //
+        //     $sections.eq(str2).css({
+        //         background: `url('./images/footer/${ str1 }02.png') no-repeat top center`,
+        //         backgroundSize: `.75rem .64rem`,
+        //     })
+        //     aboutBgSize(str2)
+        //     // console.log(`'${ str1 }02.png'`);
+        //     // background: url('../images/footer/home02.png') no-repeat top center;
+        // }
     }])
