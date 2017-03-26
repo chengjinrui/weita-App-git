@@ -138,5 +138,19 @@ angular.module('myApp', ['ui.router'])
             templateUrl: '/view/mine/mine.html',
             controller: 'mineCtrl'
         })
-
+        .state('systemSetting', {
+            url: '/systemSetting',
+            templateUrl: '/view/mine/systemSetting.html',
+            controller: 'systemSettingCtrl'
+        })
+        .state('storeAddress', {
+            url: '/storeAddress',
+            templateUrl: '/view/mine/storeAddress.html',
+            controller: 'storeAddressCtrl'
+        })
+        .state('mineSetting', {
+            url: '/mineSetting',
+            templateUrl: '/view/mine/mineSetting.html',
+            controller: 'mineSettingCtrl'
+        })
     }])

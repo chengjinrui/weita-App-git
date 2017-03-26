@@ -37,9 +37,10 @@
 }
 
 .navTop img {
-    width: 0.5rem;
-    height: 0.78125rem;
-    margin: 0.9375rem 0 0 1.09375rem;
+    width: 0.4rem;
+    height: 0.58125rem;
+    /*margin: 0.9375rem 0 0 1.09375rem;*/
+    margin: 1.5rem 0 0 1.09375rem;
 }
 
 .navTop span {
@@ -49,9 +50,10 @@
 }
 
 .navBottom img {
-    width: 0.6875rem;
+    width: 0.5875rem;
     height: 0.5625rem;
-    margin: 0.3125rem 0 0 1.09375rem;
+    margin: 0.4125rem 0 0 0.9rem;
+    vertical-align: bottom;
 }
 
 .navBottom span {
@@ -67,16 +69,21 @@
 }
 
 .nav_4 {
+    width: 25%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .nav_4 img {
-    width: 1.84375rem;
-    height: 1.84375rem;
-    margin: 0.3125rem 0.21875rem 0 0.21875rem;
+    text-align: center;
+    width: 1.34375rem;
+    height: 1.34375rem;
+    margin: 0.3125rem 0.41875rem .13rem 0.41875rem;
 }
 
 .nav_4 span {
+    text-align: center;
     font-size: 0.46875rem;
     color: #909090;
 }
@@ -87,10 +94,11 @@
     display: flex;
     background: #ededed;
     text-align: center;
+    margin-top: -.67rem;
 }
 
 .nav_5 span {
-    font-size: 0.671875rem;
+    font-size: 0.57rem;
     flex: 1;
     line-height: 2.0625rem;
 }

@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+.hear_1{
+	width:100%;
+	height: 1.4875rem;
+    line-height: 1.4875rem;
+}
+.hear_1 img{
+	width: 0.203125rem;
+	height: 0.375rem;
+	line-height: 1.1875rem;
+	margin: 0.40625rem 0 0 0.515625rem;
+}
+.hear_1 span{
+	display: inline-block;
+	font-size: 0.4375rem;
+	color: #6e6e6e;
+	line-height:  1.1875rem;
+	padding-left: 2.96875rem;
+}
+.hear_2 {
+	width: 100%;
+	background:url('../../images/mine/04.jpg');
+	height:1.140625rem ;
+	border-bottom: 0.015625rem solid #c8c8c8;
+
+}
+.hear_2 span{
+	font-size: 0.359375rem;
+	color: #636363;
+	line-height: 1.15625rem ;
+	display: inline-block;
+	padding-left: 0.3125rem;
+}
+.hear_2 img{
+	width: 0.25rem;
+	height: 0.453125rem;
+	line-height: 1.140625rem;
+	margin-left: 6.078125rem;
+}
+.hear_3 {
+	width: 100%;
+	height:1.15625rem;
+	border-bottom: 0.015625rem solid #c8c8c8;
+
+}
+.hear_3 span{
+	font-size: 0.359375rem;
+	color: #636363;
+	line-height: 1.15625rem ;
+	display: inline-block;
+	padding-left: 0.3125rem;
+}
+.hear_3 img{
+	width: 0.25rem;
+	height: 0.453125rem;
+	line-height:1.15625rem;
+	margin-left: 6.078125rem;
+}
+.hear_03 {
+	width: 100%;
+	height:1.15625rem;
+	border-bottom: 0.015625rem solid #c8c8c8;
+}
+.hear_03 span{
+	font-size: 0.359375rem;
+	color: #636363;
+	line-height: 1.15625rem ;
+	display: inline-block;
+	padding-left: 0.3125rem;
+}
+.hear_03 img{
+	width: 0.25rem;
+	height: 0.453125rem;
+	line-height:1.15625rem;
+	margin-left: 5.71875rem;
+}
+.hear_04 {
+	width: 100%;
+	height:1.15625rem;
+	border-bottom: 0.015625rem solid #c8c8c8;
+}
+.hear_04 span{
+	font-size: 0.359375rem;
+	color: #636363;
+	line-height: 1.15625rem ;
+	display: inline-block;
+	padding-left: 0.3125rem;
+}
+.hear_04 img{
+	width: 0.25rem;
+	height: 0.453125rem;
+	line-height:1.15625rem;
+	margin-left: 5.453125rem;
+}
+.hear_4{
+	height:0.609375rem;
+	border-bottom: 0.03125rem solid #dbdbdb;
+	background: #eeeeee;
+}
+.hear_5{
+    width: 50%;
+	background: #ed6f47;
+	margin:0.925rem auto 0 auto;
+	height: 1.078125rem;
+	border-radius: 0.203125rem;
+	text-align: center;
+
+}
+.hear_5 a{
+	display: inline-block;
+	font-size: 0.48125rem;
+	color: #fffdfb;
+	line-height: 1.078125rem;
+
+}
