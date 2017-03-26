@@ -4,7 +4,6 @@ angular.module('myApp', ['ui.router'])
         $urlRouterProvider
         .when('', '/home')
         .when('/activity', '/activity/onLine')
-        .when('/basket', '/basket/defaultBasket')
         .when('/createActivity', '/createActivity/createOnlineAc')
         .when('/classify', '/classify/subject')
 
@@ -31,7 +30,12 @@ angular.module('myApp', ['ui.router'])
         })
         .state('basket.defaultBasket', {
             url: '/defaultBasket',
-            templateUrl: '/view/home/defaultBasket.html',
+            templateUrl: '/view/home/defaultBasket.html'
+        })
+        .state('basket.basket_specific', {
+            url: '/basket_specific',
+            templateUrl: '/view/home/basket_specific.html',
+            controller: 'basketSpecificCtrl'
         })
             // 主页 七个分菜单点进去
         .state('menuDetail', {

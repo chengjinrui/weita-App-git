@@ -1,4 +1,8 @@
 <link rel="stylesheet" href="./css/information/information.css">
 <div class="information">
     <div class="commonHeader">{{ name }}</div>
+    <div class="tabMenu">
+        <a ui-sref="information.notice" ng-click="tab_passHash('notice');" ng-class="{ true:'tabClass1', false:'tabClass2' }[tabFlag]">通知</a>
+        <a ui-sref="information.chat" ng-click="tab_passHash('chat');" ng-class="{ false:'tabClass1', true:'tabClass2' }[tabFlag]">私信</a>
+    </div>
 </div>

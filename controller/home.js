@@ -4,7 +4,7 @@ angular.module('myApp')
         $scope.name = '味他!HOME';
         menuStepService.then(function(response){
             $scope.data = response.data.data;
-            console.log(response.data.data);
+            // console.log(response.data.data);
         },function(response){
             console.log(response);
         })
@@ -20,8 +20,8 @@ angular.module('myApp')
 
         $scope.showTwoMenu = function () {
             $('.leftMenu_main').toggleClass('rotate');
-            $('.leftTopMenu').toggleClass('show');
-            $('.leftBottomMenu').toggleClass('show');
+            $('.leftTopMenu').toggleClass('leftTopShow');
+            $('.leftBottomMenu').toggleClass('leftBottomShow');
         }
         $scope.skipUpload = function () {
             $state.go('skipUpload');
@@ -32,4 +32,11 @@ angular.module('myApp')
         $scope.showHowToDo = function (str) {
             $state.go('showHowToDo', str);
         }
+
+        $(function(){
+            $('img').lazyload({
+                effect : 'fadeIn',
+                // event : 'click'
+            })
+        })
     }])

@@ -1,95 +1,198 @@
 {
     "result": "succ",
-    "data": [
+    "data": [{
+            "menuName": "爆炸三明治",
+            "menuPic": "http://www.chufang001.com/userimg/119572/cp/1490015350cp.jpg",
+            "menuAuthorName": "Tiner宅宅",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/119572/head.jpg?update=1484394732",
+            "menuAuthorId": "930fdcea173b2621121562177b4e64c8",
+            "menuDate": 1490015351,
+            "menuState": "因为放了一整颗的鸡蛋，所以超喜欢侧面切开饱满的感觉！！\n喜欢吃馅的宝宝们，一定要试试这种方法做三明治～\n馅料自己喜欢什么来什么，都是可以自己替换哒～\n我这个放了土豆泥和水煮蛋的，口味偏清淡\n可以多放点肉松和沙拉酱！吃着可爽了～～\n可以随身携带～饿了就能吃～出去春游啥的放便当也不错哦！",
+            "menuPeopleNum": "0",
+            "menuTips": "爱美食的你别忘了关注阿宅哟～\n新浪微博【Tiner宅宅】\n微信公众号【小阿宅】",
+            "menuCookerName": "",
+            "menuCooker": "",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 0,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "吐司",
+                    "materialWeight": "2片"
+                },
+                {
+                    "materialName": "鸡蛋",
+                    "materialWeight": "1个"
+                },
+                {
+                    "materialName": "沙拉酱",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "土豆",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "肉松",
+                    "materialWeight": "适量"
+                },
+                {
+                    "materialName": "生菜",
+                    "materialWeight": "适量"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step0.png",
+                    "stepState": "土豆蒸熟，加入适量的盐巴，趁热混合搅拌均匀。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step1.png",
+                    "stepState": "取一片吐司抹上沙拉酱。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step2.png",
+                    "stepState": "铺上一层土豆泥，再涂上一层沙拉酱。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step3.png",
+                    "stepState": "撒上适量肉松，喜欢的可以多撒点～～肉松好香哒～～",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step4.png",
+                    "stepState": "放上一片生菜，提前煮颗水煮蛋，去壳后放在三明治中间，怕味道太淡的多涂点酱酱和肉松哇，或者不喜欢的可以替换别的东西哦～这个三明治很随意的哈哈！",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step5.png",
+                    "stepState": "铺上土豆泥，整成一个圆鼓鼓的半球状，可以适当椭球一些，方便后面卷成小椭球～",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step6.png",
+                    "stepState": "取一片吐司抹上沙拉酱，盖上～",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step7.png",
+                    "stepState": "用保鲜膜紧紧卷起包上，整成有点类似椭球形～",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step8.png",
+                    "stepState": "放着定型个十分钟左右吧。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step9.png",
+                    "stepState": "定型间隙有多余材料做个简易沙拉，多余土豆泥用勺子滚成一个球，拿一片生菜放上。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step10.png",
+                    "stepState": "来点沙拉酱，撒上肉松就好了，吃的时候卷起来，直接次次次～",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/119572/cp/1490015350step11.png",
+                    "stepState": "定型好了，刀切开来，侧面看起来感觉超级爽～可以不切直接吃啊嗷，像饭团一样。随身携带很方便～",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
         {
-    "menuName": "黑芝麻双色馒头",
-    "menuPic": "http://www.chufang001.com/userimg/127850/cp/1490064252cp.jpg",
-    "menuAuthorName": "Q猪宝宝",
-    "menuAuthorIcon": "http://www.chufang001.com/userimg/127850/head.jpg?update=1473209149",
-    "menuAuthorId": "89df736a804c3a4461b4aca6354adfe3",
-    "menuDate": 1490064253,
-    "menuState": "黑芝麻具有保健功效，能补肝肾、滋五脏、益精血、润肠燥等，被视为滋补圣品。一方面是因为它含有优质蛋白质和丰富的矿物质，另一方面是因为它含有丰富的不饱和脂肪酸、维生素E和珍贵的芝麻素及黑色素。黑芝麻打粉后，制作蛋糕、面包，还有面点都是不错的。",
-    "menuPeopleNum": "5",
-    "menuTips": "1、如果黑芝麻粉换成可可粉，5克即可。如果想要做其他颜色，将牛奶换成等量的果蔬汁即可。\n2、面团光滑，蒸出来的馒头表面才光滑，用压面机压面可以多重复压几次。\n3、蒸馒头蒸包子，我喜欢冷水上锅。这样在加热的过程中，包子可以慢慢适应温度变化，慢慢变大。蒸好后先焖以后，再开盖，尽量减少温差引起的馒头塌陷。",
-    "menuCookerName": "煎锅",
-    "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172339840.png",
-    "menuApplianceName": "",
-    "menuAppliance": "",
-    "menuCommentNum": 1,
-    "menuTimer": 0,
-    "isCollect": "",
-    "isPraies": "",
-    "menuMaterial": [
-      {
-        "materialName": "黑芝麻粉",
-        "materialWeight": "20克"
-      },
-      {
-        "materialName": "牛奶",
-        "materialWeight": "130克"
-      },
-      {
-        "materialName": "小麦面粉",
-        "materialWeight": "250克"
-      },
-      {
-        "materialName": "细砂糖",
-        "materialWeight": "24克"
-      },
-      {
-        "materialName": "酵母",
-        "materialWeight": "2克"
-      }
-    ],
-    "menuStep": [
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step0.jpg",
-        "stepState": "准备食材。黑芝麻面团原料：黑芝麻粉10克，小麦面粉125克，细砂糖12克，牛奶65克，酵母1克。原味面团原料省去10克黑芝麻粉即是。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step1.jpg",
-        "stepState": "将两种面团原料分别揉合，放入面包机发酵至两倍大。大概1.5个小时。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step2.jpg",
-        "stepState": "取出，排气，揉光滑。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step3.jpg",
-        "stepState": "借助压面机压出两片等大的光滑面片。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step4.jpg",
-        "stepState": "原味面片刷上一层水，将黑芝麻面片叠放在上面，然后刷上一层水，切去不规则的边沿，将面片分成两等分。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step5.jpg",
-        "stepState": "紧紧卷起后，分成等大的小份。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step6.jpg",
-        "stepState": "蒸锅放入清水，加热几分钟至水温温的状态。然后将馒头胚放入涂过油的蒸笼中，醒40分钟左右。",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step7.jpg",
-        "stepState": "开大火并一直保持，从开始到结束一共蒸20分钟。<br />",
-        "stepTime": ""
-      },
-      {
-        "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step8.jpg",
-        "stepState": "熄火后3分钟再开盖，松软的馒头就做好了。<br />",
-        "stepTime": ""
-      }
-    ],
-    "menuWorks": []
-},
+            "menuName": "黑芝麻双色馒头",
+            "menuPic": "http://www.chufang001.com/userimg/127850/cp/1490064252cp.jpg",
+            "menuAuthorName": "Q猪宝宝",
+            "menuAuthorIcon": "http://www.chufang001.com/userimg/127850/head.jpg?update=1473209149",
+            "menuAuthorId": "89df736a804c3a4461b4aca6354adfe3",
+            "menuDate": 1490064253,
+            "menuState": "黑芝麻具有保健功效，能补肝肾、滋五脏、益精血、润肠燥等，被视为滋补圣品。一方面是因为它含有优质蛋白质和丰富的矿物质，另一方面是因为它含有丰富的不饱和脂肪酸、维生素E和珍贵的芝麻素及黑色素。黑芝麻打粉后，制作蛋糕、面包，还有面点都是不错的。",
+            "menuPeopleNum": "5",
+            "menuTips": "1、如果黑芝麻粉换成可可粉，5克即可。如果想要做其他颜色，将牛奶换成等量的果蔬汁即可。\n2、面团光滑，蒸出来的馒头表面才光滑，用压面机压面可以多重复压几次。\n3、蒸馒头蒸包子，我喜欢冷水上锅。这样在加热的过程中，包子可以慢慢适应温度变化，慢慢变大。蒸好后先焖以后，再开盖，尽量减少温差引起的馒头塌陷。",
+            "menuCookerName": "煎锅",
+            "menuCooker": "http://www.chufang001.com/upfiles/shicai_pic/201532172339840.png",
+            "menuApplianceName": "",
+            "menuAppliance": "",
+            "menuCommentNum": 1,
+            "menuTimer": 0,
+            "isCollect": "",
+            "isPraies": "",
+            "menuMaterial": [{
+                    "materialName": "黑芝麻粉",
+                    "materialWeight": "20克"
+                },
+                {
+                    "materialName": "牛奶",
+                    "materialWeight": "130克"
+                },
+                {
+                    "materialName": "小麦面粉",
+                    "materialWeight": "250克"
+                },
+                {
+                    "materialName": "细砂糖",
+                    "materialWeight": "24克"
+                },
+                {
+                    "materialName": "酵母",
+                    "materialWeight": "2克"
+                }
+            ],
+            "menuStep": [{
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step0.jpg",
+                    "stepState": "准备食材。黑芝麻面团原料：黑芝麻粉10克，小麦面粉125克，细砂糖12克，牛奶65克，酵母1克。原味面团原料省去10克黑芝麻粉即是。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step1.jpg",
+                    "stepState": "将两种面团原料分别揉合，放入面包机发酵至两倍大。大概1.5个小时。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step2.jpg",
+                    "stepState": "取出，排气，揉光滑。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step3.jpg",
+                    "stepState": "借助压面机压出两片等大的光滑面片。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step4.jpg",
+                    "stepState": "原味面片刷上一层水，将黑芝麻面片叠放在上面，然后刷上一层水，切去不规则的边沿，将面片分成两等分。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step5.jpg",
+                    "stepState": "紧紧卷起后，分成等大的小份。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step6.jpg",
+                    "stepState": "蒸锅放入清水，加热几分钟至水温温的状态。然后将馒头胚放入涂过油的蒸笼中，醒40分钟左右。",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step7.jpg",
+                    "stepState": "开大火并一直保持，从开始到结束一共蒸20分钟。<br />",
+                    "stepTime": ""
+                },
+                {
+                    "stepPic": "http://www.chufang001.com/userimg/127850/cp/1490064252step8.jpg",
+                    "stepState": "熄火后3分钟再开盖，松软的馒头就做好了。<br />",
+                    "stepTime": ""
+                }
+            ],
+            "menuWorks": []
+        },
         {
             "menuName": "蒜苔炒腊肉",
             "menuPic": "http://www.chufang001.com/userimg/157573/cp/1489032095cp.jpg",

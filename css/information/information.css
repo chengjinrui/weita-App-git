@@ -1,3 +1,35 @@
-h1{
-    color: red;
+
+
+.tabMenu{
+    width: 9.04rem;
+    height: 1.09rem;
+    border: 1px solid #f9d1c4;
+    border-radius: .2rem;
+    margin: .47rem auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tabMenu a{
+    width: 50%;
+    height: 1.09rem;
+    line-height:1.09rem;
+    text-align: center;
+    font-size: .4rem;
+}
+.tabMenu a:nth-of-type(1){
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+}
+.tabMenu a:nth-of-type(2){
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+}
+.tabClass1{
+    background-color:#ed6f48;
+    color: #fff;
+}
+.tabClass2{
+    background-color: #fff;
+    color: #ed6f48;
 }

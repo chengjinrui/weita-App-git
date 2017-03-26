@@ -134,7 +134,7 @@ header span{
 	color: #2f2f2f;
 	/*margin: 0 0 0 0.666667rem;*/
 }
-.information p span:last-child{
+.information p button{
 	width: 2.613333rem;
 	height: 0.8rem;
 	display: block;
@@ -142,9 +142,19 @@ header span{
 	float: right;
 	line-height: 0.8rem;
 	text-align: center;
-	background: #eea137;
+
 	color: #fffbe3;
 	margin: 0.571429rem 0.571429rem 0 0;
+	outline: none;
+
+}
+.noAdded{
+	background: #eea137;
+	border: 1px solid #eea137;
+}
+.alreadyAdded{
+	background-color: #ee6e47;
+	border: 1px solid #ee6e47;
 }
 ol{
 	margin: 0.4rem 0 0.4rem 0.266667rem;
@@ -201,6 +211,9 @@ ol li span:last-child{
 }
 .step figure figcaption p{
 	padding: 0.586667rem 0 0 0;
+}
+.step figure figcaption p{
+	padding-right: .67rem;
 }
 .step figure figcaption .number_number{
 	color: #e9767b;

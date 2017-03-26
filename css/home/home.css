@@ -137,29 +137,24 @@ input:-ms-input-placeholder {
     position: absolute;
     left: .4rem;
     bottom: 1.93rem;
-    transition: all ease 1s;
+    transition: all ease .3s;
 }
 .rotate{
     transform: rotate(45deg);
 }
-.leftTopMenu{
+.leftTopMenu,.leftBottomMenu{
     width: 1.15rem;
     height: 1.15rem;
     position: absolute;
+    left: .4rem;
+    bottom: 1.93rem;
+    transition: all ease .3s;
+}
+.leftTopShow{
     left: 1.87rem;
     bottom: 3.47rem;
-    display: none;
-    transition: all ease 1s;
 }
-.leftBottomMenu{
-    width: 1.15rem;
-    height: 1.15rem;
-    position: absolute;
+.leftBottomShow{
     left: 2.47rem;
     bottom: 1.93rem;
-    display: none;
-    transition: all ease 1s;
-}
-.show{
-    display: block;
 }

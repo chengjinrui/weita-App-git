@@ -1,15 +1,15 @@
 angular.module('myApp')
-    .filter('dataFilter', [ function () {
+    .filter('dataFilter', [function() {
         // 补零
-        function addZero(str){
-            if (parseInt(str)>=10) {
+        function addZero(str) {
+            if (parseInt(str) >= 10) {
                 return str;
-            }else{
+            } else {
                 return 0 + "" + str;
             }
         }
         // 返回值
-        return function (str) {
+        return function(str) {
             var result = "";
             var arr = [];
             arr = str.split('/');
@@ -19,10 +19,10 @@ angular.module('myApp')
         }
     }])
 
-    .filter('timeStampTurnFilter', [ function () {
+    .filter('timeStampTurnFilter', [function() {
         var newDate = new Date();
 
-        return function (timeStamp) {
+        return function(timeStamp) {
             // console.log(timeStamp);
             newDate.setTime(timeStamp * 1000)
             // console.log(newDate.toISOString());
@@ -32,9 +32,8 @@ angular.module('myApp')
     }])
 
 
-    .filter('textWrapFilter', [ function () {
-        return function (str) {
-            console.log(str.split('<br />'));
+    .filter('textWrapFilter', [function() {
+        return function(str) {
             return str.split('<br />')
         }
     }])

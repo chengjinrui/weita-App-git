@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="./css/home/basket_specific.css">
+
+
+<div class="basket_specific">
+    <dl ng-repeat="item in dataArr track by $index">
+        <dt><a href="#">{{ item.menuName }}</a></dt>
+        <dd ng-repeat=" material in item.menuMaterial track by $index ">
+            <p ng-click="ifDele($index);">
+                <span>{{ material.materialName }}</span>
+                <i class="lineThrough hide"></i>
+                <span>{{ material.materialWeight }}</span>
+            </p>
+        </dd>
+    </dl>
+</div>

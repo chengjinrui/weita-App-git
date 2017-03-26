@@ -19,3 +19,18 @@ angular.module('myApp')
     .service('classifyService', ['$http', function ($http) {
         return $http.get('http://localhost:8888/data/classify.json')
     }])
+// basket tempStore
+    .factory('basketStoreFactory', [ function () {
+        let store = [];
+        return {
+            get : function () {
+                return store;
+            },
+            add : function (obj) {
+                store.push(obj);
+            },
+            clearAll : function (obj) {
+                store = [];
+            }
+        }
+    }])

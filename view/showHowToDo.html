@@ -42,7 +42,7 @@
         <div class="information">
             <p>
                 <span>用料:</span>
-                <span>+菜篮子</span>
+                <button ng-click="addToBasket(currentMenu.menuName)" class="oBasket noAdded">+ 菜篮子</button>
             </p>
             <ol>
                 <li ng-repeat=" item in currentMenu.menuMaterial "><span>{{ item.materialName }}</span><span>{{ item.materialWeight }}</span></li>
