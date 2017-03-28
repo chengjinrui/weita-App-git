@@ -41,8 +41,8 @@
     align-items: center;
 }
 /*   -----------  */
-
-.footer section:nth-of-type(1) a:nth-of-type(1){
+/* 错误案例啊 尴尬 以后截图一定一定要截一样的 */
+/*.footer section:nth-of-type(1) a:nth-of-type(1){
     width: .75rem;
     height: .64rem;
 }
@@ -82,7 +82,13 @@
 .footer a:nth-of-type(1){
     width: .70rem;
     height: .68rem;
+}*/
+
+.footer section a img{
+    width: .87rem;
+    height: .69rem;
 }
+
 
 .bg_banner{
     width: 100%;

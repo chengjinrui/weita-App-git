@@ -14,7 +14,7 @@ angular.module('myApp')
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             paginationClickable: true,
-            autoplay: 1000,
+            autoplay: 2000,
             autoplayDisableOnInteraction : false,
             loop: false
         });

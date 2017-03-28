@@ -1,63 +1,38 @@
 // 注意区别我这里用了as ctrl
+console.log(angular.module('myApp'));
 angular.module('myApp')
-    .controller('MainCtrl', ['$timeout', function($timeout) {
+    .controller('MainCtrl', ['$timeout', '$rootScope', '$stateParams', '$scope', '$timeout', function($timeout, $rootScope, $stateParams, $scope, $timeout) {
         var self = this;
         $timeout(function() {
             $('.bg_banner').css({
                 display: 'none'
             })
-        }, 2000);
+        }, 10);
 
-        // 封装个方法
-        let aboutBgSize = function (str) {
-
-            switch (str) {
-                case 0:
-                    $sections.eq(str).css({
-                        backgroundSize: `.75rem .64rem`,
-                    })
-                    break;
-                case 1:
-                    $sections.eq(str).css({
-                        backgroundSize: `.48rem .64rem`,
-                    })
-                    break;
-                case 2:
-                    $sections.eq(str).css({
-                        backgroundSize: `.67 rem .64 rem`,
-                    })
-                    break;
-                case 3:
-                    $sections.eq(str).css({
-                        backgroundSize: `.48 rem .64 rem`,
-                    })
-                    break;
-                case 4:
-                    $sections.eq(str).css({
-                        backgroundSize: `.63rem .68rem`,
-                    })
-                    break;
+        // 监听路由变化 专注与footer底部样式的改变
+        $rootScope.$on('$locationChangeSuccess', function (event, msg) {
+            // console.log([event, msg]);
+            // console.log(event);
+            // console.log(msg);
+            var str1 =  new RegExp('home');
+            var str2 = new RegExp('information');
+            var str3 = new RegExp('news');
+            var str4 = new RegExp('activity');
+            var str5 = new RegExp('mine');
+            var str6 = new RegExp('showHowToDo');
+            $rootScope.homeFlag = str1.test(msg);
+            $rootScope.informationFlag = str2.test(msg);
+            $rootScope.newsFlag = str3.test(msg);
+            if (!str3.test(msg)) {
+                $rootScope.newsFlag = str6.test(msg)
             }
+            $rootScope.activityFlag = str4.test(msg);
+            $rootScope.mineFlag = str5.test(msg);
 
-
-        }
-
-        // let $sections = $('.footer section');
-        // this.changeIconBg = function(str1, str2) {
-        //     // console.log(str1);
-        //     // console.log(str2);
-        //     // console.log($sections.eq(str2));
-        //     //
-        //     // 先让所有的背景都变成01
-        //     // 再让点击的当前对象的背景变成02
-        //     //
-        //     //
-        //     $sections.eq(str2).css({
-        //         background: `url('./images/footer/${ str1 }02.png') no-repeat top center`,
-        //         backgroundSize: `.75rem .64rem`,
-        //     })
-        //     aboutBgSize(str2)
-        //     // console.log(`'${ str1 }02.png'`);
-        //     // background: url('../images/footer/home02.png') no-repeat top center;
-        // }
+            $rootScope.homeFlag?$scope.homeSrcIndex='1':$scope.homeSrcIndex='0';
+            $rootScope.informationFlag?$scope.informationSrcIndex='1':$scope.informationSrcIndex='0';
+            $rootScope.newsFlag?$scope.newsSrcIndex='1':$scope.newsSrcIndex='0';
+            $rootScope.activityFlag?$scope.activitySrcIndex='1':$scope.activitySrcIndex='0';
+            $rootScope.mineFlag?$scope.mineSrcIndex='1':$scope.mineSrcIndex='0';
+        })
     }])
