@@ -1,5 +1,5 @@
 angular.module('myApp')
-    .controller('showHowToDoCtrl', ['$stateParams', 'menuStepService', '$scope', 'basketStoreFactory', function($stateParams, menuStepService, $scope ,basketStoreFactory) {
+    .controller('showHowToDoCtrl', ['$stateParams', 'menuStepService', '$scope', 'basketStoreFactory', '$state', function($stateParams, menuStepService, $scope, basketStoreFactory, $state) {
 
         menuStepService.then(function(response) {
             $scope.temp = response.data.data;
@@ -52,4 +52,9 @@ angular.module('myApp')
             // 仔细想一想  应该是在初始化showHowToDo的时候 所以应该在最上面
 
 
+
+        $scope.addToFoodList = function () {
+            alert('请先登录');
+            $state.go('login');
+        }
     }])

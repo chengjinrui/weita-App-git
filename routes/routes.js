@@ -153,6 +153,11 @@ angular.module('myApp', ['ui.router'])
                 templateUrl: '/view/mine/mineSetting.html',
                 controller: 'mineSettingCtrl'
             })
+            .state('login', {
+                url: '/login',
+                templateUrl: '/view/mine/login.html',
+                controller: 'loginCtrl'
+            })
     }])
     // .run(['$rootScope', function ($rootScope) {
     //     $rootScope.homeFlag = false;
